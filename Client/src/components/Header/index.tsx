@@ -3,7 +3,7 @@ import { IoLanguage } from 'react-icons/io5'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FaBars } from 'react-icons/fa'
 import './styles.css'
-// import { IoAccessibility } from 'react-icons/io5'
+import { IoAccessibility } from 'react-icons/io5'
 
 import { BsZoomIn, BsZoomOut } from 'react-icons/bs'
 import { GrPowerReset } from 'react-icons/gr'
@@ -57,8 +57,8 @@ export default function Header() {
     <nav id="navigation" className="navigation">
       <div className="grid grid-cols-3 justify-center border-b-2 py-2 items-center h-20 md:h-auto">
         <div className="flex justify-start ml-0 md:ml-10">
-          <div id="optionLanguageDesktop">
-            {/* <button >
+          {/* <div id="optionLanguageDesktop">
+            <button >
               <img className="w-auto h-10 m-1" src={brasil} />
             </button>
             <button >
@@ -69,14 +69,14 @@ export default function Header() {
             </button>
             <button >
               <img className="w-auto h-10 m-1" src={france} />
-            </button> */}
-          </div>
+            </button>
+          </div> */}
 
           <div id="optionAccessibilityMobile">
-            {/* <button id='acces-button' onClick={() => { setIsAccesExpanded(!isAccesExpanded) }}>
+            <button id='acces-button' onClick={() => { setIsAccesExpanded(!isAccesExpanded) }}>
               <IoAccessibility size={28} />
               <IoIosArrowDown className="m-auto" />
-            </button> */}
+            </button>
             <ul className={
               isAccesExpanded ? 'acces-dropdown-content' : 'acces-dropdown-content'
             } >
@@ -93,8 +93,8 @@ export default function Header() {
                     className={
                       isLangExpanded ? 'language-dropdown-content-hidden' : 'language-dropdown-content'
                     }>
-                    {/* <ul>
-                      <li>
+                    <ul>
+                      {/* <li>
                         <button >
                           <img className="w-auto h-10 m-1 ml-10" src={brasil} />
                         </button>
@@ -113,8 +113,8 @@ export default function Header() {
                         <button >
                           <img className="w-auto h-10 m-1 ml-10" src={english} />
                         </button>
-                      </li>
-                    </ul> */}
+                      </li> */}
+                    </ul>
                   </div>
                 </div>
               </li>
@@ -167,9 +167,9 @@ export default function Header() {
           </div>
         </div>
         <div className="flex justify-center">
-          {/* <Link to="/">
-            <img className="w-80 h-auto" src={logo} />
-          </Link> */}
+          <Link to="/">
+            <img className="w-80 h-auto" src="" />
+          </Link>
         </div>
         <div className="access flex items-center justify-end mr-10">
           <button
@@ -223,22 +223,22 @@ export default function Header() {
       >
         <ul className="navigation-menu-ul" onClick={() => { setIsNavExpanded(!isNavExpanded) }}>
           <li>
+            <Link to="/">Início</Link>
+          </li>
+          <li>
+            <Link to="/Servicos">Serviços</Link>
+          </li>
+          <li>
+            <Link to="/mapa">Mapa</Link>
+          </li>
+          <li>
             <Link to="/"></Link>
           </li>
           <li>
-            <Link to="/historia"></Link>
+            <Link to="/"></Link>
           </li>
           <li>
-            <Link to="/map"></Link>
-          </li>
-          <li>
-            <Link to="/agenda"></Link>
-          </li>
-          <li>
-            <Link to="/hoteis"></Link>
-          </li>
-          <li>
-            <Link to="/turismo"></Link>
+            <Link to="/"></Link>
           </li>
           {/* <li>
             <Link to="/lazer-esporte">{t("navbar.lazer&esporte")}</Link>
