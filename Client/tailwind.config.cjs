@@ -36,6 +36,11 @@ module.exports = {
           700: '#121214',
           900: '#09090A',
         },
+        orange: {
+          100: '#FBA94C',
+          200: '#FF690F',
+        }
+        ,
         grayHover: '#CCCCCC',
       },
     },
