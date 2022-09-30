@@ -5,12 +5,10 @@ footer {
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    
     width: 100%;
     gap: 2rem;
     background: #fff;
-    align-items: center;
     padding: 0px 2rem;
 }
 
@@ -43,7 +41,7 @@ h3::after {
 .containerHero {
     height: 100%;
     width: 100%;
-    padding: 2rem 0px 2rem 0px;
+    padding: 0rem 0px 2rem 0px;
 }
 
 .containerInfos {
@@ -52,7 +50,8 @@ h3::after {
     padding: 0rem 2rem;
     background: #ececec;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px 0px rgba(78, 78, 78, 0.75);
+    filter: brightness(.95);
+   
 }
 
 h3::after {
@@ -129,8 +128,7 @@ h3::after {
     padding: .8rem 0px;
     background: #fff;
     color: black;
-    border-top: 1px solid #e0e0e0;
-    filter: brightness(.95);
+    border-top: 1px solid black;
 }
 
 .redes {
@@ -148,6 +146,7 @@ h3::after {
     justify-content: flex-end;
     width: 100%;
     margin: 1rem 0px 0px 0px;
+    color: white;
 }
 
 .redesIcon a:hover {
