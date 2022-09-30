@@ -1,0 +1,11 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Agrolugue Documentation",
+    "description": "This is an API documentation for Agrolugue",
+    "version": "1.0.0",
+    "contact": {
+      "email": "felipeferreiradev.sp@gmail.com"
+    }
+  }
+}
