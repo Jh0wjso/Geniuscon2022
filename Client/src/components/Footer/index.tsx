@@ -1,4 +1,4 @@
-import { FaEnvelope, FaFacebook, FaPhone, FaYoutube } from 'react-icons/fa'
+import { FaEnvelope, FaFacebook, FaPhone, FaYoutube, FaInstagram, FaWhatsapp} from 'react-icons/fa'
 import './styles.css'
 
 import logo from '/src/assets/img/logos/ICON.png'
@@ -14,15 +14,7 @@ export function Footer() {
         <div className='flex'>
           <div className="redes mr-4">
             <img src={logoBanner} alt="" />
-              <div className="redesIcon ">
-                <a href="google.com">
-                  <FaFacebook size={28}/>
-                </a>
-                <a href="">
-                  <FaYoutube size={28} />
-                </a>
-            
-            </div>
+              
           </div>
           <div className="containerHero pt-8">
             <div className="containerInfos bg-gray-550 ">
@@ -63,6 +55,21 @@ export function Footer() {
                   <FaEnvelope color="" />
                   emailImaginario@uenp.edu.br
                 </strong>
+                <div className="redesIcon ">
+                <a href="#">
+                  <FaYoutube size={28} />
+                </a>
+                <a href="#">
+                  <FaFacebook size={28}/>
+                </a>
+                <a href="#">
+                  <FaInstagram size={28} />
+                </a>
+                <a href="#">
+                  <FaWhatsapp size={28} />
+                </a>
+            
+            </div>
               </div>
             </div>
           </div>
