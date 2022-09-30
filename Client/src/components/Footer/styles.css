@@ -36,7 +36,7 @@ h3::after {
         
     transform: translate(-20%, -50%);
 
-    background-color: red;
+    @apply bg-green-400;
 }
 .containerHero {
     height: 100%;
