@@ -135,7 +135,7 @@
 
 .navigation .navigation-menu li a:hover {
   color: white;
-  background-color: #4E6B4A;
+  @apply bg-green-800;
   transition: 0.4s;
   border-radius: 3px;
 }
