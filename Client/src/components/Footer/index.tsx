@@ -9,7 +9,7 @@ import { BsSquare } from 'react-icons/bs'
 export function Footer() {
   return (
     <footer className="border-t-2">
-      <div className="footer bg-gray-550 ">
+      <div className="footer bg-white ">
       
         <div className='flex'>
           <div className="redes mr-4">
@@ -17,9 +17,9 @@ export function Footer() {
               
           </div>
           <div className="containerHero pt-8">
-            <div className="containerInfos bg-gray-550 ">
-              <div className="column titleHidden text-white">
-                <h3 className='text-white'>Navegação</h3>
+            <div className="containerInfos bg-white ">
+              <div className="column titleHidden text-black">
+                <h3 className='text-black'>Navegação</h3>
                 <div className="pages">
                   <Link to="#">Início</Link>
                   <Link to="#"> Serviços</Link>
@@ -28,8 +28,8 @@ export function Footer() {
                 </div>
               </div>
               <div className="column titleHidden">
-                <h3 className='text-white'>Atualização</h3>
-                <div className="notices text-white">
+                <h3 className='text-black'>Atualização</h3>
+                <div className="notices text-black">
                   <ul>
                     <li>
                       texto
@@ -43,8 +43,8 @@ export function Footer() {
                   </ul>
                 </div>
               </div>
-            <div className="column text-white">
-              <h3 className='text-white'>Contato</h3>
+            <div className="column text-black">
+              <h3 className='text-black'>Contato</h3>
               <div className="contacts">
                 <strong>Universidade Estadual do Norte do Paraná</strong>
                 <strong>

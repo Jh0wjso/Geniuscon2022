@@ -50,7 +50,7 @@ h3::after {
     padding: 0rem 2rem;
     background: #ececec;
     border-radius: 8px;
-    filter: brightness(.95);
+    filter: brightness(.85);
    
 }
 
@@ -128,7 +128,7 @@ h3::after {
     padding: .8rem 0px;
     background: #fff;
     color: black;
-    border-top: 1px solid black;
+    border-top: 1px solid gray;
 }
 
 .redes {
