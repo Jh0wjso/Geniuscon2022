@@ -32,7 +32,7 @@ export const optionUser= [
     icone: FiMessageSquare
   },
   {
-    titulo: 'Aavaliações',
+    titulo: 'Avaliações',
     estado: '0',
     icone: FiStar
 
