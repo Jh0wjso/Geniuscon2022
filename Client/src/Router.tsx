@@ -8,7 +8,7 @@ import Inicio from './screens/Inicio'
 export function Router() {
   return (
     <Routes>
-      <Route path="/inicio" element={<Inicio/>}/>
+      <Route path="/" element={<Inicio/>}/>
 
       {/* Dashboards */}
       <Route path="/login" element={<Login/>} />
