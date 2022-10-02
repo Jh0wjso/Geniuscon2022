@@ -66,19 +66,19 @@ export default function Inicio() {
         <div className='container'>
           <div className='items'>
             <TbWorld size={60} className='' color="#fff" />
-            <p>Tenha visualização em tempo real</p>
+            <h4>Tenha visualização em tempo real</h4>
           </div>
           <div className='items'>
             <GiBrazil size={60} className='' color="#fff" />
-            <p>Suporte para todo Brasil</p>
+            <h4>Suporte para todo Brasil</h4>
           </div>
           <div className='items'>
             <FiTarget size={60} className='' color="#fff" />
-            <p>Alcance seus objetivos de mercado</p>
+            <h4>Alcance seus objetivos de mercado</h4>
           </div>
           <div className='items'>
             <FaStore size={60} className='' color="#fff" />
-            <p>Divulgue de maneira fácil seus serviços</p>
+            <h4>Divulgue de maneira fácil seus serviços</h4>
           </div>
         </div>
       </div>
