@@ -7,5 +7,58 @@
     "contact": {
       "email": "felipeferreiradev.sp@gmail.com"
     }
+  },
+  "paths": {
+    "/offers": {
+      "post": {
+        "tags": [
+          "Offers"
+        ],
+        "summary": "Create a new offer",
+        "description": "Create a new offer",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "price": {
+                    "type": "number"
+                  },
+                  "user_id": {
+                    "type": "string"
+                  }
+                },
+                "example": {
+                  "title": "Offer 1",
+                  "description": "Description of offer 1",
+                  "price": 100,
+                  "user_id": "5f9f1b9b0b9d2b0017e1b1f1"
+                }
+              }
+            }
+          }
+        },
+        "response": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
   }
 }
