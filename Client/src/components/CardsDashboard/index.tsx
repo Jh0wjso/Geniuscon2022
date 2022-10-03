@@ -41,7 +41,7 @@ export function CardsDashboard({ objectList }: CardsDashboardProps) {
               )}
             </div>
 
-            <div className='flex justify-center '> 
+            <div className='flex justify-center md:mt-3 sm: mt-3'> 
               <div className="vendor-calendar ">
                   <div className='grid content-center bg-white shadow-md rounded-lg my-5w'>
                     <div className='flex justify-center rounded-t-2xl mb-2 text-base text-zinc-500 bg-white '>
