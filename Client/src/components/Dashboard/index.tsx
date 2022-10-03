@@ -1,8 +1,15 @@
-export default function Dashboard(){
+interface DashboardProps {
+  title: string;
+  subtitle: string;
+}
+
+
+export default function Dashboard({title, subtitle}: DashboardProps) {
+
     return(
         <div className='grid'>
-          <h1>Dashboard</h1>
-          <h5>Dashboard</h5>
+          <h1>{title}</h1>
+          <h5>{subtitle}</h5>
         </div>
     )
 }

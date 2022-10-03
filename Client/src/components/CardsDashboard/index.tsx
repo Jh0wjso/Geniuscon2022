@@ -22,7 +22,10 @@ export function CardsDashboard({ objectList }: CardsDashboardProps) {
     <div className="vendor-body">
       <div className="vendor-container flex-col items-start">
         <div className='pb-5'>
-          <Dashboard/>
+          <Dashboard
+            title='Dashboard'
+            subtitle='Dashboard'
+          />
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5'>
@@ -40,7 +43,7 @@ export function CardsDashboard({ objectList }: CardsDashboardProps) {
 
             <div className='flex justify-center '> 
               <div className="vendor-calendar ">
-                  <div className='grid content-center bg-white shadow-md rounded-lg my-5'>
+                  <div className='grid content-center bg-white shadow-md rounded-lg my-5w'>
                     <div className='flex justify-center rounded-t-2xl mb-2 text-base text-zinc-500 bg-white '>
                       <a>Calendário</a>
                     </div>
