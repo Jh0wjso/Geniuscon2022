@@ -1,8 +1,8 @@
 .vendor-body {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding: 20px;
 }
@@ -13,6 +13,14 @@
   gap: 15px;
   justify-content: center;
 
+}
+
+.vendor-container{
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .vendor-body .vendor-content .vendor-card {
@@ -42,4 +50,5 @@
   width: 100%;
   height: 100%;
   text-align: center;
+  border-radius: 20px;
 }
