@@ -13,6 +13,7 @@
 }
 
 #inicio .parallax .container {
+  background-color: rgba(1, 101, 39, 0.4);
     display: flex;
     justify-content: space-evenly;
     align-items: center;

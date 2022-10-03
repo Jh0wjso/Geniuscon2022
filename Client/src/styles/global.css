@@ -143,9 +143,6 @@ input, textarea {
   section {
     padding: 1rem 3rem;
   }
-  .gap-5 {
-    gap: 0 !important;
-  }
 }
 
 @media screen and (max-width: 425px) {
