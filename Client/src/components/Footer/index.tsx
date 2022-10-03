@@ -16,7 +16,7 @@ export function Footer() {
             <img src={logoBanner} alt="" />
               
           </div>
-          <div className="containerHero pt-8">
+          <div className="containerHero py-8 pr-8">
             <div className="containerInfos bg-white ">
               <div className="column titleHidden text-black">
                 <h3 className='text-black'>Navegação</h3>

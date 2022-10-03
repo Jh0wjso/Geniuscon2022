@@ -5,11 +5,9 @@ footer {
 }
 
 .footer {
-    
     width: 100%;
     gap: 2rem;
     background: #fff;
-    padding: 0px 2rem;
 }
 
 h3 {
@@ -168,10 +166,6 @@ h3::after {
 }
 
 @media screen and (max-width: 1300px) {
-    .footer {
-        display: flex;
-    }
-
     .titleHidden:nth-child(2) {
         display: none;
     }

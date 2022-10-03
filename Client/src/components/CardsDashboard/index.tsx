@@ -14,7 +14,7 @@ interface ObjectItem {
 interface CardsDashboardProps {
   objectList: ObjectItem[];
 }
-
+  
 export function CardsDashboard({ objectList }: CardsDashboardProps) {
   const [date, setDate] = useState(new Date());
 
