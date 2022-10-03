@@ -25,26 +25,27 @@ export function CardsDashboard({ objectList }: CardsDashboardProps) {
           <Dashboard/>
         </div>
 
-        <div className='flex items-center'>
-        <div className='vendor-content'>
-            {objectList.map((data: ObjectItem) =>
-              <div className="vendor-card">
-                <div className="vendor-card-content">
-                  <data.icone size={30} />
-                  <h1>{data.titulo}</h1>
-                  <h4>{data.estado}</h4>
-                </div>
-              </div>
-            )}
-          </div>
-          <div className='flex justify-center'> 
-            <div className="vendor-calendar ">
-                <div className='calendar-content'>
-                  <div className='flex justify-center rounded-t-2xl mb-2 text-base text-zinc-500 bg-white '>
-                    <a>Calendário</a>
+        <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5'>
+          <div className='vendor-content col-span-2'>
+              {objectList.map((data: ObjectItem) =>
+                <div className="vendor-card">
+                  <div className="vendor-card-content">
+                    <data.icone size={30} />
+                    <h1>{data.titulo}</h1>
+                    <h4>{data.estado}</h4>
                   </div>
-                  <Calendar calendarType='Hebrew' onChange={setDate} value={date}/>
                 </div>
+              )}
+            </div>
+
+            <div className='flex justify-center '> 
+              <div className="vendor-calendar ">
+                  <div className='grid content-center bg-white shadow-md rounded-lg my-5'>
+                    <div className='flex justify-center rounded-t-2xl mb-2 text-base text-zinc-500 bg-white '>
+                      <a>Calendário</a>
+                    </div>
+                    <Calendar calendarType='Hebrew' onChange={setDate} value={date}/>
+                  </div>
            </div>
           </div>
         </div>

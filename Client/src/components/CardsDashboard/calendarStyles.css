@@ -18,7 +18,7 @@ text-transform: none !important;
 
 .react-calendar{
 padding: 2%;
-width:100%;
+width:100% !important;
 border: 0px !important;
 font-family: 'Roboto', sans-serif !important;
 border-radius: 20px !important;
@@ -30,8 +30,8 @@ border-radius: 20px !important;
 
 .react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus{
 padding: 0.1rem;
-background-color: #44913a !important;;
-border-radius:25%;
+background-color: #44913a !important;
+@apply rounded-md
 }
 
 .react-calendar__month-view__days__day--weekend {
@@ -56,4 +56,5 @@ font-weight: 600;
 display: none;
 
 }
+
 

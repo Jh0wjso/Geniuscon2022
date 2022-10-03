@@ -4,13 +4,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  @apply w-screen
 }
 
 .vendor-body .vendor-content {
   display: grid;
-  grid-template-columns: repeat(3, 320px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 15px;
   justify-content: center;
 
@@ -21,13 +19,11 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+
 }
 
 .vendor-body .vendor-content .vendor-card {
-  @apply bg-white shadow-md rounded-lg;
-  width: 230px;
-  height: 250px;
+  @apply bg-white shadow-md rounded-lg h-40 md:h-64 ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,10 +42,13 @@
   margin: 0;
 }
 
+.vendor-body .vendor-content .vendor-card .vendor-card-content h1 {
+@apply text-sm md:text-xl lg:text-3xl font-bold;
+}
 .vendor-body .vendor-calendar {
-  @apply bg-white shadow-md rounded-lg;
+  @apply  flex justify-center items-center;
   width: 100%;
-  height: 50%;
+  height: 100%;
   text-align: center;
   border-radius: 1rem;
 }
