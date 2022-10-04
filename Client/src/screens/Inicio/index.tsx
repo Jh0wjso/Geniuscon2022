@@ -66,7 +66,7 @@ export default function Inicio() {
       </section >
       <div id="inicio">
         <div className='parallax'>
-          <div className='container'>
+          <div className="container items-start p-2 text-xs md:text-lg md:items-center">
             <div className='items'>
               <TbWorld size={60} className='' color="#fff" />
               <h4>Tenha visualização em tempo real</h4>
