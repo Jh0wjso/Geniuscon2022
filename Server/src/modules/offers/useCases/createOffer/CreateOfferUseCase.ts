@@ -14,12 +14,16 @@ class CreateOfferUseCase {
     title,
     description,
     price,
+    latitude,
+    longitude,
     user_id,
   }: ICreateOfferDTO): Promise<Offer> {
     const offer = await this.offersRepositories.create({
       title,
       description,
       price,
+      latitude,
+      longitude,
       user_id,
     });
 

@@ -15,6 +15,8 @@ class OffersRepository implements OffersRepository {
     title,
     description,
     price,
+    latitude,
+    longitude,
     user_id,
   }: ICreateOfferDTO): Promise<void> {
     const offer = this.repository.create({
@@ -22,6 +24,8 @@ class OffersRepository implements OffersRepository {
       title,
       description,
       price,
+      latitude,
+      longitude,
       user_id,
     });
 

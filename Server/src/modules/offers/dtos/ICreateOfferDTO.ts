@@ -3,6 +3,8 @@ interface ICreateOfferDTO {
   title: string;
   description: string;
   price: number;
+  latitude: number;
+  longitude: number;
   user_id: string;
 }
 

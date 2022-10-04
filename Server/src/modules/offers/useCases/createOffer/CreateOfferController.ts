@@ -6,7 +6,7 @@ import { CreateOfferUseCase } from "./CreateOfferUseCase";
 class CreateOfferController {
   async handle(request: Request, response: Response): Promise<Response> {
     const { id } = request.user;
-    const { title, description, price } = request.body;
+    const { title, description, price, latitude, longitude } = request.body;
 
     const createOfferUseCase = container.resolve(CreateOfferUseCase);
 
@@ -14,6 +14,8 @@ class CreateOfferController {
       title,
       description,
       price,
+      latitude,
+      longitude,
       user_id: id,
     });
 

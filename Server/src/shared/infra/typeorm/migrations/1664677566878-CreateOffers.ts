@@ -24,6 +24,16 @@ export class CreateOffers1664677566878 implements MigrationInterface {
             type: "decimal",
           },
           {
+            name: "latitude",
+            type: "numeric",
+            isNullable: true,
+          },
+          {
+            name: "longitude",
+            type: "numeric",
+            isNullable: true,
+          },
+          {
             name: "user_id",
             type: "uuid",
           },

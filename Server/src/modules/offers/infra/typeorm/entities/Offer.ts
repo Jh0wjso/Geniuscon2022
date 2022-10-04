@@ -24,6 +24,12 @@ class Offer {
   @Column()
   price: number;
 
+  @Column()
+  latitude: number;
+
+  @Column()
+  longitude: number;
+
   @ManyToOne(() => User)
   @JoinColumn({ name: "user_id" })
   user: User;
