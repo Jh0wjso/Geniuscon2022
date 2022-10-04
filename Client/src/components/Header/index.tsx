@@ -50,10 +50,12 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center border-l mr-4">
-            <Link to={''}>
+            <Link to={''}
+              className="flex flex-row center"
+            >
               <FaUserCircle className="mr-2 ml-2" size={26} color={'#8D8D99'} />
+              <p className="m-0">Entrar</p>
             </Link>
-            <p className="m-0">Entrar</p>
           </div>
         </div>
       </div>
