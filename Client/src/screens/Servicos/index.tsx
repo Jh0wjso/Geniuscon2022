@@ -5,7 +5,16 @@ import './styles.css'
 export default function Servico() {
   return (
     <section id="locacao" >
-      <Filter/>
+      <Filter title='Serviços' opcoes={[
+        'Colheitadeiras', 
+        'Forrageira', 
+        'Tratores', 
+        'Colhedoras', 
+        'Pulverizadores', 
+        'Grades', 
+        'Enfardadoras', 
+        'Semeadoras',
+        ]}/>
 
     </section>
   )

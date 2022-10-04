@@ -1,0 +1,40 @@
+.filter {
+  background-color: #fff;
+  right: 100px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  width: 250px;
+  position: relative;
+}
+
+.filter .filter-body {
+  padding: 10px;
+}
+
+.filter .filter-body h5 {
+  padding: 5px;
+  border-bottom-width: 1px;
+  font-size: large;
+}
+
+.filter .filter-body li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 2px;
+}
+
+.filter .filter-body input[type="checkbox"] {
+  width: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  width: 20px;
+  height: 20px;
+}
+
+.filter .filter-body #filter-search {
+  width: 160px;
+  border: 1px solid #ccc;
+}
