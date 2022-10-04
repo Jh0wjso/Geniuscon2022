@@ -33,65 +33,47 @@ export function Routes() {
         }}
       />
       <Drawer.Screen
-        name="Historia"
+        name="Serviços"
         component={Historia}
         options={{
           drawerIcon: ({ focused, size, color }) => (
-            <MaterialCommunityIcons name="hail" size={size} color={color} />
+            <MaterialCommunityIcons name="account-hard-hat" size={size} color={color} />
           ),
         }}
       />
       <Drawer.Screen
-        name="Turismo"
+        name="Mapa"
         component={StackRoutes}
         options={{
           drawerIcon: ({ focused, size, color }) => (
-            <MaterialCommunityIcons name="airplane" size={size} color={color} />
+            <MaterialCommunityIcons name="google-maps" size={size} color={color} />
           ),
         }}
       />
       <Drawer.Screen
-        name="Hotel"
+        name="Locação"
         component={StackRoutesHotel}
         options={{
           drawerIcon: ({ focused, size, color }) => (
-            <MaterialCommunityIcons name="bed" size={size} color={color} />
+            <MaterialCommunityIcons name="briefcase-search" size={size} color={color} />
           ),
         }}
       />
       <Drawer.Screen
-        name="Restaurante"
+        name="Clima"
         component={StackRoutesRestaurante}
         options={{
           drawerIcon: ({ focused, size, color }) => (
-            <MaterialCommunityIcons name="food" size={size} color={color} />
+            <MaterialCommunityIcons name="weather-partly-cloudy" size={size} color={color} />
           ),
         }}
       />
       <Drawer.Screen
-        name="Promocoes"
+        name="Insumos"
         component={StackRoutesPromocoes}
         options={{
           drawerIcon: ({ focused, size, color }) => (
-            <MaterialCommunityIcons name="ticket-percent" size={size} color={color} />
-          ),
-        }}
-      />
-      <Drawer.Screen
-        name="Comunicados"
-        component={Comunicado}
-        options={{
-          drawerIcon: ({ focused, size, color }) => (
-            <MaterialCommunityIcons name="bullhorn" size={size} color={color} />
-          ),
-        }}
-      />
-      <Drawer.Screen
-        name="Contato"
-        component={Contato}
-        options={{
-          drawerIcon: ({ focused, size, color }) => (
-            <MaterialCommunityIcons name="chat-processing" size={size} color={color} />
+            <MaterialCommunityIcons name="seed" size={size} color={color} />
           ),
         }}
       />
