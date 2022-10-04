@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Icon/Check 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.2595,15.74025 L7.2925,13.77325 C6.9025,13.38325 6.9025,12.75025 7.2925,12.35925 C7.6835,11.96925 8.3165,11.96925 8.7065,12.35925 L9.9665,13.61925 L15.2925,8.29325 C15.6835,7.90225 16.3165,7.90225 16.7065,8.29325 C17.0975,8.68325 17.0975,9.31625 16.7065,9.70725 L10.6735,15.74025 C10.4785,15.93525 10.2225,16.03325 9.9665,16.03325 C9.7105,16.03325 9.4545,15.93525 9.2595,15.74025 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="24" height="24" rx="4"></rect>
+    </defs>
+    <g id="Detalhe-do-Anúncio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Detalhe-Anúncio---Melhorias-Lead" transform="translate(-851.000000, -1645.000000)">
+            <g id="Icon/Check-2" transform="translate(844.500000, 1637.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Fill-1" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="Cards/z0/Basic" mask="url(#mask-2)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <g id="Colors/White" mask="url(#mask-4)" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

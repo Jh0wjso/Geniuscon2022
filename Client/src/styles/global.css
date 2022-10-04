@@ -123,6 +123,19 @@ section {
   @apply text-center
 }
 
+.scroll-syles::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll-syles::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.scroll-syles::-webkit-scrollbar-thumb {
+  background-color: theme(colors.gray.200);
+  border-radius: 20px;
+}
+
 input, textarea {
   outline: none;
 }

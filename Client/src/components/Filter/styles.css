@@ -1,12 +1,11 @@
 .filter {
   background-color: #fff;
-  right: 100px;
   padding: 10px;
-  margin-top: 5px;
   border-radius: 5px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   height: fit-content;
-  width: 250px;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -14,27 +13,60 @@
   padding: 10px;
 }
 
-.filter .filter-body h5 {
-  padding: 5px;
+.filter .filter-body .opcoes {
+  @apply pb-40
+}
+
+.filter .filter-body .opcoes div {
   border-bottom-width: 1px;
-  font-size: large;
+  @apply py-4;
+}
+
+.filter .filter-body h5 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  @apply pb-3 text-gray-600;
 }
 
 .filter .filter-body li {
   display: flex;
   align-items: center;
-  padding: 5px;
   gap: 2px;
+  @apply my-1
+}
+
+.filter .filter-body li label {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  @apply text-gray-400;
 }
 
 .filter .filter-body input[type="checkbox"] {
-  width: 20px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
-  width: 20px;
-  height: 20px;
+  appearance: none;
+  cursor: pointer;
+  border: 2px solid rgb(223, 224, 231);
+  width: 18px;
+  height: 18px;
+  padding: 0px;
+  margin-right: 7px;
+  border-radius: 4px;
 }
 
-.filter .filter-body #filter-search {
-  width: 160px;
-  border: 1px solid #ccc;
+.filter .filter-body input[type="checkbox"]:checked {
+  border: 0px;
+  background-color: theme(colors.green.brasao2);
+  background-image: url(/src/assets/img/icon/check-white.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.filter .filter-body .filter-search input {
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  border: 2px solid #ecedf2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
 }
