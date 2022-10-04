@@ -1,11 +1,12 @@
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { useTheme } from "native-base";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import { StackRoutes, StackRoutesHotel, StackRoutesPromocoes, StackRoutesRestaurante } from "./StackRoutes";
 import { Home } from "../screens/Home";
-import { Contato } from "../screens/Contato";
-import { Historia } from "../screens/Historia";
-import { Comunicado } from "../screens/Comunicado";
+import { Insumos } from "../screens/Insumos";
+import { Serviços } from "../screens/Serviços";
+import { Clima } from "../screens/Clima";
+import { Mapa } from "../screens/Mapa";
+import { Locacao } from "../screens/Locacao";
 
 const Drawer = createDrawerNavigator();
 
@@ -34,7 +35,7 @@ export function Routes() {
       />
       <Drawer.Screen
         name="Serviços"
-        component={Historia}
+        component={Serviços}
         options={{
           drawerIcon: ({ focused, size, color }) => (
             <MaterialCommunityIcons name="account-hard-hat" size={size} color={color} />
@@ -43,7 +44,7 @@ export function Routes() {
       />
       <Drawer.Screen
         name="Mapa"
-        component={StackRoutes}
+        component={Mapa}
         options={{
           drawerIcon: ({ focused, size, color }) => (
             <MaterialCommunityIcons name="google-maps" size={size} color={color} />
@@ -52,7 +53,7 @@ export function Routes() {
       />
       <Drawer.Screen
         name="Locação"
-        component={StackRoutesHotel}
+        component={Locacao}
         options={{
           drawerIcon: ({ focused, size, color }) => (
             <MaterialCommunityIcons name="briefcase-search" size={size} color={color} />
@@ -61,7 +62,7 @@ export function Routes() {
       />
       <Drawer.Screen
         name="Clima"
-        component={StackRoutesRestaurante}
+        component={Clima}
         options={{
           drawerIcon: ({ focused, size, color }) => (
             <MaterialCommunityIcons name="weather-partly-cloudy" size={size} color={color} />
@@ -70,7 +71,7 @@ export function Routes() {
       />
       <Drawer.Screen
         name="Insumos"
-        component={StackRoutesPromocoes}
+        component={Insumos}
         options={{
           drawerIcon: ({ focused, size, color }) => (
             <MaterialCommunityIcons name="seed" size={size} color={color} />

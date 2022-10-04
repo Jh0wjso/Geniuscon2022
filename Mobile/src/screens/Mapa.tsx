@@ -6,7 +6,7 @@ import api from "../services/api";
 import { CardPrincipal } from "../components/Card/Principal";
 import { PropsGeral } from "../utils/tipagens";
 
-export function Turismo() {
+export function Mapa() {
   const [turismo, setTurismo] = useState<PropsGeral[]>([])
   const [loading, setLoading] = useState(false)
   const [religioso, setReligioso] = useState(true)

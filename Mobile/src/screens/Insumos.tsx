@@ -4,7 +4,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import { useNavigation } from "@react-navigation/native";
 import { TextInput } from "react-native-gesture-handler";
 
-export function Contato() {
+export function Insumos() {
 
     const navigation = useNavigation();
     const { colors } = useTheme();

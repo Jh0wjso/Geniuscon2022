@@ -3,8 +3,9 @@ import { Header } from "../components/Header";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import { useNavigation } from "@react-navigation/native";
 import { TextInput } from "react-native-gesture-handler";
-import Swiper from 'react-native-swiper'
-export function Historia() {
+import Swiper from 'react-native-swiper';
+
+export function Serviços() {
 
     const navigation = useNavigation();
     const { colors } = useTheme();

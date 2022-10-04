@@ -24,7 +24,7 @@ export interface HoteisProps {
   categoria?: string
 }
 
-export function Hotel() {
+export function Locacao() {
   const [hoteis, setHoteis] = useState<HoteisProps[]>()
   const [loading, setLoading] = useState(false)
 

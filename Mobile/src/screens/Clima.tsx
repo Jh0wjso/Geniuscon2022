@@ -2,7 +2,7 @@ import { ScrollView, VStack } from "native-base";
 import { CardComunicado } from "../components/Card/Comunicado";
 import { Header } from "../components/Header";
 
-export function Comunicado() {
+export function Clima() {
   return (
     <VStack flex={1} mb={10} bg="gray.100">
       <Header />
