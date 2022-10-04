@@ -2,16 +2,16 @@ import './styles.css'
 import { Link } from 'react-router-dom'
 
 interface CardProps {
-  desc: string
+  desc?: string
   img: string
-  telefone: string
+  proprietario: string
   title: string
-  preco: string
+  preco: number
   categoria: string
   marca: string
 }
 
-export default function Card({ marca, categoria, desc, img, title, telefone, preco }: CardProps) {
+export default function Card({ marca, categoria, desc, img, title, proprietario, preco }: CardProps) {
   return (
     <div className="card">
       <div className="card-content">
@@ -19,15 +19,15 @@ export default function Card({ marca, categoria, desc, img, title, telefone, pre
           <img src={img} alt="" />
           <label>{title}</label>
         </div>
-        <p>{desc}</p>
+        {desc && <p>{desc}</p>}
         <div className="card-footer">
-          <p>Categoria:{categoria}</p>
-          <p>Preço:{preco}</p>
-          <p>Marca:{marca}</p>
-          <p>Contato:{telefone}</p>
+          <p>{categoria}</p>
+          <p>{marca}</p>
+          <p>{proprietario}</p>
+          <p>R$ {preco} /dia</p>
         </div>
         <div className="card-redirect">
-          <Link to={''}><button>Saiba mais</button></Link>
+          <Link to={''}>Saiba mais</Link>
         </div>
       </div>
     </div>

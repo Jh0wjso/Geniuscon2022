@@ -22,35 +22,43 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  border-bottom-width: 1px;
-  --tw-border-opacity: 1
+}
+
+.card-title label {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .card .card-content .card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card .card-content .card-footer p {
+  text-align: center;
+  border-top-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(196 196 204 / var(--tw-border-opacity));
+  @apply m-0 py-2 text-gray-550;
 }
 
 .card .card-content .card-redirect {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
   border-top-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(196 196 204 / var(--tw-border-opacity));
   width: 100%;
   align-self: flex-end;
+  @apply pt-4
 }
 
-.card .card-content .card-redirect button {
-  background: #283729;
+.card .card-content .card-redirect a {
+  text-align: center;
   color: #fff;
   font-weight: 700;
-  border-radius: 8px;
-  transition: .3s ease;
-  width: 100px;
-  padding: 5px;
+  border-radius: 3px;
+  transition: 0.3s ease;
+  width: 100%;
+  @apply py-3 bg-green-900 hover:bg-green-800;
 }
