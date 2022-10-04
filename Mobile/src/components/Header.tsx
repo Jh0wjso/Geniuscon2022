@@ -2,7 +2,7 @@ import { Button, Center, HStack, Image, StyledProps, useTheme, View, VStack } fr
 import logo from '../assets/logo-banner.png'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useNavigation, DrawerActions } from "@react-navigation/native";
-import { SafeAreaView } from "react-native";
+import { SafeAreaView, StatusBar } from "react-native";
 
 interface HeaderProps extends StyledProps {
   voltar?: boolean;
@@ -15,6 +15,7 @@ export function Header({voltar, ...rest }: HeaderProps) {
   
   return (
     <SafeAreaView>
+      <StatusBar backgroundColor={colors.green['600']} barStyle="light-content"/>
       <VStack
         mt={6} 
         w="full"
