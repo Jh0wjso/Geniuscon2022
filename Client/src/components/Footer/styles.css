@@ -127,6 +127,7 @@ h3::after {
     background: #fff;
     color: black;
     border-top: 1px solid gray;
+    width:100%;
 }
 
 .redes {
@@ -200,9 +201,6 @@ h3::after {
         display: none;
     }
 
-    .copyright p:last-child {
-        display: none;
-    }
 
     .titleHidden {
         display: none;

@@ -16,7 +16,7 @@ export function Footer() {
             <img src={logoBanner} alt="" />
               
           </div>
-          <div className="containerHero py-8 pr-8">
+          <div className="containerHero py-8 px-4 lg:pr-8 ">
             <div className="containerInfos bg-white ">
               <div className="column titleHidden text-black">
                 <h3 className='text-black'>Navegação</h3>
@@ -75,14 +75,15 @@ export function Footer() {
           </div>
         </div>
         </div>
-        <div className="copyright bg-gray-550 text-white ">
-          <p className='m-0'>© 2022 - Genius Hackathon - Todos os direitos reservados</p>
+        <div className="copyright bg-gray-550 text-white grid  md:flex justify-center justify-items-center">
+          <p className='m-0 text-center hidden md:flex p-4'>© 2022 - Genius Hackathon - Todos os direitos reservados</p>
+          <p className='m-0 text-center md:hidden p-2'>© 2022 - Genius Hackathon<br/>Todos os direitos reservados</p>
           <img
-            className=" w-auto max-h-20 bg-contain"
+            className="w-auto max-h-12 md:max-h-14 bg-contain "
             src={logo}
             alt="Logo Bandeirantes"
           />
-          <p className='m-0'>Website desenvolvido pela equipe Garage Sprint Code</p>
+          <p className='m-0 text-center hidden p-4 md:flex  '>Website desenvolvido pela equipe Garage Sprint Code</p>
         </div>
         </div>
     </footer>
