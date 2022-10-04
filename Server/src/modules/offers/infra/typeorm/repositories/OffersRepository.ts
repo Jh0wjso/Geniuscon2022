@@ -18,8 +18,9 @@ class OffersRepository implements IOffersRepository {
     price,
     latitude,
     longitude,
+    offerImages,
     user_id,
-  }: ICreateOfferDTO): Promise<void> {
+  }: ICreateOfferDTO): Promise<Offer> {
     const offer = this.repository.create({
       id,
       title,
@@ -27,10 +28,13 @@ class OffersRepository implements IOffersRepository {
       price,
       latitude,
       longitude,
+      offerImages,
       user_id,
     });
 
     await this.repository.save(offer);
+
+    return offer;
   }
 
   async findByUserId(user_id: string): Promise<Offer> {
@@ -46,7 +50,9 @@ class OffersRepository implements IOffersRepository {
   }
 
   async listAll(): Promise<Offer[]> {
-    const offers = await this.repository.find();
+    const offers = await this.repository.find({
+      relations: ["offerImages"],
+    });
 
     return offers;
   }
