@@ -28,7 +28,7 @@ export function CardsDashboard({ objectList }: CardsDashboardProps) {
           />
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
           <div className='vendor-content col-span-2'>
               {objectList.map((data: ObjectItem) =>
                 <div className="vendor-card">
@@ -41,7 +41,7 @@ export function CardsDashboard({ objectList }: CardsDashboardProps) {
               )}
             </div>
 
-            <div className='flex justify-center md:mt-3 sm: mt-3'> 
+            <div className='flex justify-center sm:mt-3 md:mt-3'> 
               <div className="vendor-calendar ">
                   <div className='grid content-center bg-white shadow-md rounded-lg my-5w'>
                     <div className='flex justify-center rounded-t-2xl mb-2 text-base text-zinc-500 bg-white '>
