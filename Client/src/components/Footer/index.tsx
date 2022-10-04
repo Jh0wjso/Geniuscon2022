@@ -75,14 +75,14 @@ export function Footer() {
           </div>
         </div>
         </div>
-        <div className="copyright bg-gray-550 text-white">
-          <p>© 2022 - Genius Hackathon - Todos os direitos reservados</p>
+        <div className="copyright bg-gray-550 text-white ">
+          <p className='m-0'>© 2022 - Genius Hackathon - Todos os direitos reservados</p>
           <img
             className=" w-auto max-h-20 bg-contain"
             src={logo}
             alt="Logo Bandeirantes"
           />
-          <p>Website desenvolvido pela equipe Garage Sprint Code</p>
+          <p className='m-0'>Website desenvolvido pela equipe Garage Sprint Code</p>
         </div>
         </div>
     </footer>
