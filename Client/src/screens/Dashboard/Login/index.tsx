@@ -6,7 +6,7 @@ export default function Login() {
     <div className="login-body">
       <div className="login-position">
         <div className="login-content">
-          <form action="" method="post" >
+          <form action="" method="post">
             <h1>Login🌱</h1>
             <h3>Bem-vindo ao Login👋</h3>
             <p>Por favor, insira email e senha</p>
@@ -16,7 +16,9 @@ export default function Login() {
             <input type="password" placeholder="Senha" />
             <input type="submit" value="Entrar" />
             <p>Possui cadastro?</p>
-            <Link to="/cadastro" className='text-green-600'>Cadastre-se</Link>
+            <Link to="/cadastro" className="text-green-600">
+              Cadastre-se
+            </Link>
           </form>
         </div>
       </div>

@@ -1,40 +1,41 @@
-import { FiUsers } from 'react-icons/fi';
-import { TbMailbox } from 'react-icons/tb';
-import { FiList } from 'react-icons/fi';
-import { FiMap } from 'react-icons/fi';
-import { FiMessageSquare } from 'react-icons/fi';
-import { FiStar } from 'react-icons/fi';
+import { FiUsers, FiList, FiMap, FiMessageSquare, FiStar } from 'react-icons/fi'
+import { TbMailbox } from 'react-icons/tb'
 
-export const optionUser= [
+export const optionUser = [
   {
+    id: 1,
     titulo: 'Carrinho',
     estado: '0',
-    icone: FiUsers
+    icone: FiUsers,
   },
   {
+    id: 2,
     titulo: 'Caixa de entrada',
     estado: '0',
-    icone: TbMailbox
+    icone: TbMailbox,
   },
   {
+    id: 3,
     titulo: 'Lista de produtos',
     estado: '0',
-    icone: FiList
+    icone: FiList,
   },
   {
+    id: 4,
     titulo: 'Mapa',
     estado: '0',
-    icone: FiMap
+    icone: FiMap,
   },
   {
+    id: 5,
     titulo: 'Mensagens',
     estado: '0',
-    icone: FiMessageSquare
+    icone: FiMessageSquare,
   },
   {
+    id: 6,
     titulo: 'Avaliações',
     estado: '0',
-    icone: FiStar
-
-  }
+    icone: FiStar,
+  },
 ]

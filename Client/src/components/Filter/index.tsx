@@ -1,5 +1,5 @@
-import "./styles.css"
-import {BiMap} from "react-icons/bi"
+import './styles.css'
+import { BiMap } from 'react-icons/bi'
 
 interface FilterProps {
   title: string
@@ -15,22 +15,26 @@ export function Filter({ title, opcoes }: FilterProps) {
             <h5 className="filter-title">Pesquisa</h5>
             <ul>
               <li>
-                <input id="filter-search" type="text" placeholder="Digite a região" />
-                <button id="filter-button" type="submit"><BiMap size={24}/></button>
+                <input
+                  id="filter-search"
+                  type="text"
+                  placeholder="Digite a região"
+                />
+                <button id="filter-button" type="submit">
+                  <BiMap size={24} />
+                </button>
               </li>
             </ul>
             <h5 className="filter-title">{title}</h5>
             <ul>
-              {
-                opcoes.map((opcao) => {
-                  return (
-                    <li>
-                      <input type="checkbox" />
-                      <label>{opcao}</label>
-                    </li>
-                  )
-                })
-              }
+              {opcoes.map((opcao) => {
+                return (
+                  <li key={opcao}>
+                    <input type="checkbox" />
+                    <label>{opcao}</label>
+                  </li>
+                )
+              })}
             </ul>
           </div>
         </form>

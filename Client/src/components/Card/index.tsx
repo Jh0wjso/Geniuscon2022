@@ -11,7 +11,15 @@ interface CardProps {
   marca: string
 }
 
-export default function Card({ marca, categoria, desc, img, title, proprietario, preco }: CardProps) {
+export default function Card({
+  marca,
+  categoria,
+  desc,
+  img,
+  title,
+  proprietario,
+  preco,
+}: CardProps) {
   return (
     <div className="card">
       <div className="card-content">

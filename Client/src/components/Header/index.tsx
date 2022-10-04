@@ -1,15 +1,15 @@
-import { useState } from "react";
-import { FaBars, FaUserCircle } from "react-icons/fa";
-import "./styles.css";
+import { useState } from 'react'
+import { FaBars, FaUserCircle } from 'react-icons/fa'
+import './styles.css'
 
-import { Link } from "react-router-dom";
-import brasil from "../../assets/languages/brazil.png";
-import english from "../../assets/languages/usa.png";
-import spain from "../../assets/languages/spain.png";
-import france from "../../assets/languages/france.png";
+import { Link } from 'react-router-dom'
+import brasil from '../../assets/languages/brazil.png'
+import english from '../../assets/languages/usa.png'
+import spain from '../../assets/languages/spain.png'
+import france from '../../assets/languages/france.png'
 
 export default function Header() {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   return (
     <nav id="navigation" className="navigation">
@@ -17,45 +17,41 @@ export default function Header() {
         <div className="flex justify-start">
           <Link to="#">
             <img
+              alt="logo"
               className="w-56 h-auto"
               src="src\assets\img\logos\logo-banner.png"
             />
           </Link>
         </div>
 
-        
         <div className="flex justify-end  mr-2">
-        <button
-          className="hamburger"
-          onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
-          }}
-        >
-          <FaBars />
-        </button>
-        <div className="flex justify-end ml-0">
-          <div className="mr-6" id="optionLanguageDesktop">
-            <button>
-              <img className="w-auto h-10 m-1" src={brasil} />
-            </button>
-            <button>
-              <img className="w-auto h-10 m-1" src={english} />
-            </button>
-            <button>
-              <img className="w-auto h-10 m-1" src={spain} />
-            </button>
-            <button>
-              <img className="w-auto h-10 m-1" src={france} />
-            </button>
+          <button
+            className="hamburger"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded)
+            }}
+          >
+            <FaBars />
+          </button>
+          <div className="flex justify-end ml-0">
+            <div className="mr-6" id="optionLanguageDesktop">
+              <button>
+                <img className="w-auto h-10 m-1" src={brasil} alt="pt-BR" />
+              </button>
+              <button>
+                <img className="w-auto h-10 m-1" src={english} alt="en-US" />
+              </button>
+              <button>
+                <img className="w-auto h-10 m-1" src={spain} alt="en-EN" />
+              </button>
+              <button>
+                <img className="w-auto h-10 m-1" src={france} alt="fr-FR" />
+              </button>
+            </div>
           </div>
-        </div>
           <div className="flex items-center border-l mr-4">
-            <Link to={""}>
-              <FaUserCircle
-              className="mr-2 ml-2"
-              size={26}
-              color={'#8D8D99'}
-              />
+            <Link to={''}>
+              <FaUserCircle className="mr-2 ml-2" size={26} color={'#8D8D99'} />
             </Link>
             <p className="m-0">Entrar</p>
           </div>
@@ -63,13 +59,13 @@ export default function Header() {
       </div>
       <div
         className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+          isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
         }
       >
         <ul
           className="navigation-menu-ul"
           onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
+            setIsNavExpanded(!isNavExpanded)
           }}
         >
           <li>
@@ -93,5 +89,5 @@ export default function Header() {
         </ul>
       </div>
     </nav>
-  );
+  )
 }

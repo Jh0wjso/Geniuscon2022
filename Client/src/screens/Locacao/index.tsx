@@ -3,7 +3,7 @@ import './styles.css'
 
 export default function Locacao() {
   return (
-    <section id="locacao" >
+    <section id="locacao">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-1 justify-center gap-5 ">
         <Card
           title="Nome do trator"
@@ -77,9 +77,7 @@ export default function Locacao() {
           proprietario="Fazenda São João"
           marca="John Deere"
         />
-
       </div>
-
     </section>
   )
 }
