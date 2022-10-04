@@ -78,6 +78,7 @@ body {
 
 section {
   padding: 2rem 6rem 4rem 6rem;
+
 }
 
 .title-style-1 {
@@ -141,9 +142,6 @@ input, textarea {
 @media screen and (max-width: 768px) {
   section {
     padding: 1rem 3rem;
-  }
-  .gap-5 {
-    gap: 0 !important;
   }
 }
 

@@ -1,62 +1,91 @@
-import { FaSeedling, FaSprayCan, FaTruckLoading } from 'react-icons/fa';
-import { FiLogIn } from 'react-icons/fi';
-import { GiFarmTractor, GiSugarCane } from 'react-icons/gi';
+import { FaSeedling, FaSprayCan, FaStore, FaTruckLoading } from 'react-icons/fa';
+import { FiLogIn, FiTarget } from 'react-icons/fi';
+import { GiBrazil, GiFarmTractor, GiSugarCane } from 'react-icons/gi';
 import { MdAgriculture } from 'react-icons/md';
 import { TbBulldozer } from 'react-icons/tb';
+import { TbWorld } from 'react-icons/tb';
+
 import CardsAcesso from '../../components/CardsAcesso';
 import './styles.css';
 
 export default function Inicio() {
   return (
-    <section id="inicio" className='grid grid-cols-4 my-1 justify-center gap-5 '>
-      <CardsAcesso
-        link="#"
-        icon={<GiFarmTractor size={50} />}
-        titulo="Colheitadeiras"
-        descricao="Acesse sua conta"
-      />
-      <CardsAcesso
-        link="#"
-        icon={<MdAgriculture size={50}   />}
-        titulo="Tratores"
-        descricao="Acesse sua conta"
-      />
-      <CardsAcesso
-        link="#"
-        icon={<GiSugarCane size={50}   />}
-        titulo="Colhedor de Cana"
-        descricao="Acesse sua conta"
-      />
-      <CardsAcesso
-        link="#"
-        icon={<FaSprayCan size={50}   />}
-        titulo="Pulverizadores"
-        descricao="Acesse sua conta"
-      />
-      <CardsAcesso
-        link="#"
-        icon={<TbBulldozer size={50}   />}
-        titulo="Grades"
-        descricao="Acesse sua conta"
-      />
-      <CardsAcesso
-        link="#"
-        icon={<FaTruckLoading size={50}   />}
-        titulo="Enfardadoras"
-        descricao="Acesse sua conta"
-      />
-      <CardsAcesso
-        link="#"
-        icon="#"
-        titulo="Forrageiras"
-        descricao="Acesse sua conta"
-      />
-      <CardsAcesso
-        link="#"
-        icon={<FaSeedling size={50}   />}
-        titulo="Semeadoras"
-        descricao="Acesse sua conta"
-      />
-    </section>
+    <>
+      <section id="inicio" >
+        <h1 className='text-center text-6xl'>Locação</h1>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-1 justify-center gap-5 '>
+          <CardsAcesso
+            link="#"
+            icon={<GiFarmTractor size={50} />}
+            titulo="Colheitadeiras"
+            descricao="Acesse sua conta"
+          />
+          <CardsAcesso
+            link="#"
+            icon={<MdAgriculture size={50} />}
+            titulo="Tratores"
+            descricao="Acesse sua conta"
+          />
+          <CardsAcesso
+            link="#"
+            icon={<GiSugarCane size={50} />}
+            titulo="Colhedor de Cana"
+            descricao="Acesse sua conta"
+          />
+          <CardsAcesso
+            link="#"
+            icon={<FaSprayCan size={50} />}
+            titulo="Pulverizadores"
+            descricao="Acesse sua conta"
+          />
+          <CardsAcesso
+            link="#"
+            icon={<TbBulldozer size={50} />}
+            titulo="Grades"
+            descricao="Acesse sua conta"
+          />
+          <CardsAcesso
+            link="#"
+            icon={<FaTruckLoading size={50} />}
+            titulo="Enfardadoras"
+            descricao="Acesse sua conta"
+          />
+          <CardsAcesso
+            link="#"
+            icon="#"
+            titulo="Forrageiras"
+            descricao="Acesse sua conta"
+          />
+          <CardsAcesso
+            link="#"
+            icon={<FaSeedling size={50} />}
+            titulo="Semeadoras"
+            descricao="Acesse sua conta"
+          />
+        </div>
+      </section >
+      <div id="inicio">
+        <div className='parallax'>
+          <div className="container items-start p-2 text-xs md:text-lg md:items-center">
+            <div className='items'>
+              <TbWorld size={60} className='' color="#fff" />
+              <h4>Tenha visualização em tempo real</h4>
+            </div>
+            <div className='items'>
+              <GiBrazil size={60} className='' color="#fff" />
+              <h4>Suporte para todo Brasil</h4>
+            </div>
+            <div className='items'>
+              <FiTarget size={60} className='' color="#fff" />
+              <h4>Alcance seus objetivos de mercado</h4>
+            </div>
+            <div className='items'>
+              <FaStore size={60} className='' color="#fff" />
+              <h4>Divulgue de maneira fácil seus serviços</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }

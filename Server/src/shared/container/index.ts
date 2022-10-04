@@ -4,7 +4,7 @@ import { UsersRepository } from "@modules/accounts/infra/typeorm/repositories/Us
 import { UsersTokensRepository } from "@modules/accounts/infra/typeorm/repositories/UsersTokensRepository";
 import { IUsersRepository } from "@modules/accounts/repositories/IUsersRepository";
 import { IUsersTokensRepository } from "@modules/accounts/repositories/IUsersTokensRepository";
-import { OffersRepository } from "@modules/offers/infra/typeorm/repositories/IOffersRepository";
+import { OffersRepository } from "@modules/offers/infra/typeorm/repositories/OffersRepository";
 import { IOffersRepository } from "@modules/offers/repositories/IOffersRepository";
 import { container } from "tsyringe";
 

@@ -1,0 +1,36 @@
+#inicio .parallax {
+    display: flex;
+    /* The image used */
+    background-image: url("src/assets/img/parallax.png");
+    /* Set a specific height */
+    min-height: 200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#inicio .parallax .container {
+  background-color: rgba(1, 101, 39, 0.4);
+    display: flex;
+    justify-content: space-evenly;
+    top: 50%;
+    position: relative;
+    max-width: 100%;
+}
+
+#inicio .parallax .container .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#inicio .parallax .container .items h4 {
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+}

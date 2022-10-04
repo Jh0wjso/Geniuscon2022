@@ -1,9 +1,10 @@
 import { ICreateOfferDTO } from "@modules/offers/dtos/ICreateOfferDTO";
+import { IOffersRepository } from "@modules/offers/repositories/IOffersRepository";
 import { getRepository, Repository } from "typeorm";
 
 import { Offer } from "../entities/Offer";
 
-class OffersRepository implements OffersRepository {
+class OffersRepository implements IOffersRepository {
   private repository: Repository<Offer>;
 
   constructor() {
@@ -44,7 +45,7 @@ class OffersRepository implements OffersRepository {
     return offer;
   }
 
-  async list(): Promise<Offer[]> {
+  async listAll(): Promise<Offer[]> {
     const offers = await this.repository.find();
 
     return offers;

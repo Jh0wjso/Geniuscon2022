@@ -4,11 +4,15 @@ import Login from './screens/Dashboard/Login'
 import User from './screens/Dashboard/User'
 import Vendor from './screens/Dashboard/Vendor'
 import Inicio from './screens/Inicio'
+import Locacao from './screens/Locacao'
+import Servico from './screens/Servicos'
 
 export function Router() {
   return (
     <Routes>
-      <Route path="/inicio" element={<Inicio/>}/>
+      <Route path="/" element={<Inicio/>}/>
+      <Route path="/locacao" element={<Locacao/>} />
+      <Route path="/servicos" element={<Servico/>} />
 
       {/* Dashboards */}
       <Route path="/login" element={<Login/>} />
