@@ -112,18 +112,6 @@
   transition: 0.3s;
 }
 
-.navigation .perfil-header {
-  display: flex;  
-  flex-direction: column;
-  align-items: center;
-  margin-right: 65%;
-  position: relative;
-  top: 10px;
-}
-
-.navigation .perfil-header svg {
-  margin-left: 10px;
-}
 
 .navigation .navigation-menu li a {
   justify-content: center;
@@ -190,15 +178,6 @@
 @media screen and (max-width: 768px) {
   .navigation {
     position: fixed;
-  }
-
-  .navigation .perfil-header p {
-    display: none;
-  }
-
-  .navigation .perfil-header {
-    position: relative;
-    top: 0;
   }
 
   .navigation #optionAccessibilityMobile .acces-dropdown-content {
@@ -273,14 +252,3 @@
 
 }
 
-@media screen and (max-width: 426px) {
-  .navigation .perfil-header  {
-    margin-right: 40px;
-  }
-
-  .navigation .perfil-header svg {
-    width: 40px;
-  }
-
-
-}
