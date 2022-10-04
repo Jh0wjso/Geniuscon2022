@@ -1,5 +1,4 @@
 import { ICreateOfferDTO } from "@modules/offers/dtos/ICreateOfferDTO";
-import { Offer } from "@modules/offers/infra/typeorm/entities/Offer";
 import { IOffersRepository } from "@modules/offers/repositories/IOffersRepository";
 import { inject, injectable } from "tsyringe";
 
@@ -16,18 +15,18 @@ class CreateOfferUseCase {
     price,
     latitude,
     longitude,
+    offerImages,
     user_id,
-  }: ICreateOfferDTO): Promise<Offer> {
+  }: ICreateOfferDTO): Promise<void> {
     const offer = await this.offersRepositories.create({
       title,
       description,
       price,
       latitude,
       longitude,
+      offerImages,
       user_id,
     });
-
-    return offer;
   }
 }
 

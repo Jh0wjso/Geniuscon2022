@@ -7,8 +7,11 @@ import {
   UpdateDateColumn,
   ManyToOne,
   JoinColumn,
+  OneToMany,
 } from "typeorm";
 import { v4 as uuidv4 } from "uuid";
+
+import { OfferImage } from "./OfferImages";
 
 @Entity("offers")
 class Offer {
@@ -29,6 +32,12 @@ class Offer {
 
   @Column()
   longitude: number;
+
+  @OneToMany(() => OfferImage, (image) => image.offer, {
+    cascade: ["insert", "update"],
+  })
+  @JoinColumn({ name: "offer_id" })
+  offerImages: OfferImage[];
 
   @ManyToOne(() => User)
   @JoinColumn({ name: "user_id" })
