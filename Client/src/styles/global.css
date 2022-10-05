@@ -136,6 +136,19 @@ section {
   border-radius: 20px;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: theme(colors.gray.400);
+  border-radius: 20px;
+}
+
 input, textarea {
   outline: none;
 }

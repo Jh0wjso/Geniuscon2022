@@ -4,7 +4,7 @@
   position: relative;
   background-color: #fff;
   color: black;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.03);
   z-index: 999;
 }
 
@@ -97,6 +97,7 @@
 
 .navigation .navigation-menu {
   margin-left: auto;
+  @apply border-b
 }
 
 .navigation .navigation-menu ul {
@@ -104,6 +105,7 @@
   justify-content: space-evenly;
   padding: 0;
   border-radius: 5px;
+  width: 50%;
 }
 
 .navigation .navigation-menu li {
@@ -118,14 +120,13 @@
   text-decoration: none;
   display: inline-flex;
   width: 100%;
-  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  @apply py-1 text-gray-400 border-4 border-transparent;
 }
 
 .navigation .navigation-menu li a:hover {
-  color: white;
-  @apply bg-green-800;
+  @apply text-green-800 border-b-4 border-b-green-800;
   transition: 0.4s;
-  border-radius: 3px;
 }
 
 .navigation .navigation-menu-ul {
