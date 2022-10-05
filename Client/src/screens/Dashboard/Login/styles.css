@@ -15,22 +15,15 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  @apply px-16 pb-10
 }
 
-.login-content input {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+
 
 .login-content h1 {
   display: flex;
-  justify-content: center ;
-  margin-bottom: 5px;
-  padding: 20px;
+  justify-content: center;
+  @apply pb-2 pt-0
 }
 
 .login-content label {
@@ -43,9 +36,26 @@
   text-decoration: none;
 }
 
+.login-content .redes-sociais button {
+  border-radius: 10px;
+  background-color: transparent;
+  @apply flex items-center justify-center 
+}
+
+.login-content .redes-sociais button svg {
+  @apply mr-2
+}
+
+.login-content .redes-sociais button:first-child {
+  @apply border-blue-600 border-2 text-blue-600 font-bold bg-blue-100
+}
+
+.login-content .redes-sociais button:last-child {
+  @apply border-red-600 border-2 text-red-600 font-bold bg-red-100
+}
+
 @media screen and (max-width: 768px) {
   .login-body {
     padding-top: 110px;
   }
 }
-  
