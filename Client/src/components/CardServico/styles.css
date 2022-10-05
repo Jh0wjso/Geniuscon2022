@@ -1,0 +1,40 @@
+.card-servico {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.card-servico .servico-titulo {
+  
+}
+
+.card-servico .servico-desc {
+
+}
+
+.card-servico .servico-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-servico .servico-info a {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(196 196 204 / var(--tw-border-opacity));
+    width: 100%;
+    align-self: flex-end;
+    padding-top: 1rem;
+    color: #fff;
+    @apply py-3 bg-green-900 hover:bg-green-800;
+    border-radius: 5px;
+    justify-content: center;
+}
