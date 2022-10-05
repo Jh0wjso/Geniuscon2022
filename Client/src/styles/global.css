@@ -166,7 +166,7 @@ input:focus, select:focus {
 }
 
 button {
-  @apply w-full bg-green-900 rounded-md text-white py-3 mt-8 hover:bg-green-800 transition-all
+  @apply w-full bg-green-900 rounded-md text-white py-3 hover:bg-green-800 transition-all
 }
 
 @media screen and (max-width: 1440px) {
