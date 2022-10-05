@@ -32,16 +32,16 @@ export default function Header() {
           </button>
           <div className="flex justify-end ml-0">
             <div className="mr-6" id="optionLanguageDesktop">
-              <button>
+              <button className="bg-transparent py-0 hover:bg-transparent">
                 <img className="w-auto h-10 m-1" src={brasil} alt="pt-BR" />
               </button>
-              <button>
+              <button className="bg-transparent py-0 hover:bg-transparent">
                 <img className="w-auto h-10 m-1" src={english} alt="en-US" />
               </button>
-              <button>
+              <button className="bg-transparent py-0 hover:bg-transparent">
                 <img className="w-auto h-10 m-1" src={spain} alt="en-EN" />
               </button>
-              <button>
+              <button className="bg-transparent py-0 hover:bg-transparent">
                 <img className="w-auto h-10 m-1" src={france} alt="fr-FR" />
               </button>
             </div>
