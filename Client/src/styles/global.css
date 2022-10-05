@@ -152,6 +152,22 @@ body::-webkit-scrollbar-thumb {
 input, textarea {
   outline: none;
 }
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: .3s;
+  @apply rounded-md
+}
+
+input:focus, select:focus {
+  @apply border-green-900 bg-gray-100 shadow-sm
+}
+
+button {
+  @apply w-full bg-green-900 rounded-md text-white py-3 mt-8 hover:bg-green-800 transition-all
+}
 
 @media screen and (max-width: 1440px) {
   section {
