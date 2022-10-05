@@ -17,12 +17,6 @@
   @apply my-5
 }
 
-.detail-container .buy form input[type="text"],
-input[type="number"],
-select {
-  transition: .3s;
-  @apply rounded-md border-gray-300 border-2 px-3 py-1 focus:border-blue-600 focus:bg-gray-100 focus:shadow-sm
-}
 
 .detail-container .buy form input[type="checkbox"] {
   appearance: none;

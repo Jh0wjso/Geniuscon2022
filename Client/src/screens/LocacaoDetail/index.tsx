@@ -237,9 +237,7 @@ export default function LocacaoDetail() {
                         </span>
                       </span>
                     </div>
-                    <button className="bg-green-brasao2 rounded-md text-white py-2 mt-8">
-                      Efetuar compra
-                    </button>
+                    <button className="mt-8">Efetuar compra</button>
                   </div>
                 </div>
               </form>
