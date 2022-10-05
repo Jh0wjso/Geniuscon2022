@@ -7,6 +7,7 @@ import brasil from '../../assets/languages/brazil.png'
 import english from '../../assets/languages/usa.png'
 import spain from '../../assets/languages/spain.png'
 import france from '../../assets/languages/france.png'
+import logobanner from '../../assets/img/logos/logo-banner.png'
 
 export default function Header() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -16,11 +17,7 @@ export default function Header() {
       <div className="grid grid-cols-2 border-b h-20 md:h-auto justify-between">
         <div className="flex justify-start">
           <Link to="#">
-            <img
-              alt="logo"
-              className="w-56 h-auto"
-              src="src\assets\img\logos\logo-banner.png"
-            />
+            <img alt="logo" className="w-56 h-auto" src={logobanner} />
           </Link>
         </div>
 
