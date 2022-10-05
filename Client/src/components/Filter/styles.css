@@ -42,6 +42,10 @@
   @apply text-gray-400;
 }
 
+.filter .filter-body li label:hover {
+  cursor: pointer;
+}
+
 .filter .filter-body input[type="checkbox"] {
   appearance: none;
   cursor: pointer;

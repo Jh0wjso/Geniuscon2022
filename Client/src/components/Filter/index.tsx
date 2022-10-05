@@ -3,11 +3,12 @@ import './styles.css'
 interface FilterProps {
   title: string
   opcoes: string[]
+  className?: HTMLDivElement['className']
 }
 
-export function Filter({ title, opcoes }: FilterProps) {
+export function Filter({ title, opcoes, className }: FilterProps) {
   return (
-    <div className="filter overflow-y-auto scroll-syles">
+    <div className={`filter overflow-y-auto scroll-syles ${className}`}>
       <div className="filter-body">
         <form action="" method="post">
           <div className="opcoes">
@@ -47,8 +48,8 @@ export function Filter({ title, opcoes }: FilterProps) {
                 {opcoes.map((opcao) => {
                   return (
                     <li key={opcao}>
-                      <input type="checkbox" />
-                      <label>{opcao}</label>
+                      <input id={opcao} type="checkbox" />
+                      <label htmlFor={opcao}>{opcao}</label>
                     </li>
                   )
                 })}
@@ -60,8 +61,8 @@ export function Filter({ title, opcoes }: FilterProps) {
                 {opcoes.map((opcao) => {
                   return (
                     <li key={opcao}>
-                      <input type="checkbox" />
-                      <label>{opcao}</label>
+                      <input id={opcao} type="checkbox" />
+                      <label htmlFor={opcao}>{opcao}</label>
                     </li>
                   )
                 })}
@@ -73,8 +74,8 @@ export function Filter({ title, opcoes }: FilterProps) {
                 {opcoes.map((opcao) => {
                   return (
                     <li key={opcao}>
-                      <input type="checkbox" />
-                      <label>{opcao}</label>
+                      <input id={opcao} type="checkbox" />
+                      <label htmlFor={opcao}>{opcao}</label>
                     </li>
                   )
                 })}
@@ -86,8 +87,21 @@ export function Filter({ title, opcoes }: FilterProps) {
                 {opcoes.map((opcao) => {
                   return (
                     <li key={opcao}>
-                      <input type="checkbox" />
-                      <label>{opcao}</label>
+                      <input id={opcao} type="checkbox" />
+                      <label htmlFor={opcao}>{opcao}</label>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
+            <div>
+              <h5 className="filter-title">{title}</h5>
+              <ul>
+                {opcoes.map((opcao) => {
+                  return (
+                    <li key={opcao}>
+                      <input id={opcao} type="checkbox" />
+                      <label htmlFor={opcao}>{opcao}</label>
                     </li>
                   )
                 })}
