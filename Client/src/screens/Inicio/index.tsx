@@ -1,9 +1,8 @@
 /* eslint-disable prettier/prettier */
-import { FaSeedling, FaSprayCan, FaStore, FaTruckLoading } from 'react-icons/fa'
+import { FaStore } from 'react-icons/fa'
 import { FiTarget } from 'react-icons/fi'
-import { GiBrazil, GiFarmTractor, GiSugarCane } from 'react-icons/gi'
-import { MdAgriculture } from 'react-icons/md'
-import { TbBulldozer, TbWorld } from 'react-icons/tb'
+import { GiBrazil} from 'react-icons/gi'
+import { TbWorld } from 'react-icons/tb'
 import farm from '../../assets/img/farm.jpeg'
 
 import CardsAcesso from '../../components/CardsAcesso'
@@ -63,49 +62,49 @@ export default function Inicio() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-1 justify-center gap-5 ">
           <CardsAcesso
             link="#"
-            icon={<GiFarmTractor size={50} />}
+            img='https://cdn.discordapp.com/attachments/1025171766101938206/1027029462820339792/harvester.png'
             titulo="Colheitadeiras"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
             link="#"
-            icon={<MdAgriculture size={50} />}
+            img='https://cdn.discordapp.com/attachments/1025171766101938206/1027030578714906705/tractor.png'
             titulo="Tratores"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
             link="#"
-            icon={<GiSugarCane size={50} />}
+            img='https://cdn.discordapp.com/attachments/1025171766101938206/1027024822892511262/ceifeira-debulhadora_1.png'
             titulo="Colhedor de Cana"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
             link="#"
-            icon={<FaSprayCan size={50} />}
+            img='https://cdn.discordapp.com/attachments/1025171766101938206/1027036473972772884/pesticide_1.png'
             titulo="Pulverizadores"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
             link="#"
-            icon={<TbBulldozer size={50} />}
+            img='https://cdn.discordapp.com/attachments/1025171766101938206/1027032731282051142/grader_1.png'
             titulo="Grades"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
             link="#"
-            icon={<FaTruckLoading size={50} />}
+            img='https://cdn.discordapp.com/attachments/1025171766101938206/1027033492166549574/hay-bale.png'
             titulo="Enfardadoras"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
             link="#"
-            icon="#"
+            img='https://cdn.discordapp.com/attachments/1027039724285726741/1027039757991157760/silagem.png'
             titulo="Forrageiras"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
             link="#"
-            icon={<FaSeedling size={50} />}
+            img='https://static.thenounproject.com/png/4453885-200.png'
             titulo="Semeadoras"
             descricao="Acesse sua conta"
           />
