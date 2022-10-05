@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import CompraLocacao from './screens/CompraLocacao'
 import Cadastro from './screens/Dashboard/Cadastro'
 import Login from './screens/Dashboard/Login'
 import User from './screens/Dashboard/User'
@@ -16,6 +17,7 @@ export function Router() {
       <Route path="/locacao" element={<Locacao />} />
       <Route path="/locacao/detalhe" element={<LocacaoDetail />} />
       <Route path="/servicos" element={<Servico />} />
+      <Route path="/compra" element={<CompraLocacao />} />
 
       {/* Dashboards */}
       <Route path="/login" element={<Login />} />
