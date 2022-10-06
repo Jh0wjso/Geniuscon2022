@@ -91,7 +91,7 @@ h3::after {
 }
 
 .pages a:hover, .notices a:hover {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #458E42;
     transition: ease .8s;
 }
 
@@ -115,7 +115,7 @@ h3::after {
 }
 
 .notice-text p {
-    color: red;
+    color: #458E42;
 }
 
 .copyright {

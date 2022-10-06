@@ -147,7 +147,7 @@ export default function Inicio() {
     </section>
 
       <div id="inicio">
-        <div className="parallax">
+        <div className="parallax bg-black">
           <div className="container items-start p-2 text-xs md:text-lg md:items-center">
             <div className="items">
               <TbWorld size={60} className="" color="#fff" />
