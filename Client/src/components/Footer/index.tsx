@@ -33,13 +33,7 @@ export function Footer() {
               </div>
               <div className="column titleHidden">
                 <h3 className="text-black">Atualização</h3>
-                <div className="notices text-black">
-                  <ul>
-                    <li>texto</li>
-                    <li>texto</li>
-                    <li>texto</li>
-                  </ul>
-                </div>
+                <div className="notices text-black"></div>
               </div>
               <div className="column text-black">
                 <h3 className="text-black">Contato</h3>
