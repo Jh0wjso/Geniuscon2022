@@ -1,5 +1,4 @@
 import { BiSearchAlt2 } from 'react-icons/bi'
-import { farmsData } from './FarmsData'
 import { MapContainer, Polygon, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -7,8 +6,25 @@ import { Navigation, Pagination } from 'swiper'
 import { Link } from 'react-router-dom'
 
 import './styles.css'
+import { useEffect, useState } from 'react'
+import api from '../../services/api'
+
+interface farmProps {
+  id: number
+  nome: string
+  local: []
+  imagens: []
+}
 
 export default function Map() {
+  const [farms, setFarms] = useState<farmProps[]>()
+
+  useEffect(() => {
+    api.get('/farms').then((response) => {
+      setFarms(response.data)
+    })
+  }, [])
+
   return (
     <>
       <MapContainer
@@ -24,7 +40,7 @@ export default function Map() {
             import.meta.env.VITE_MAPBOX_TOKEN
           }`}
         />
-        {farmsData?.map((farm) => {
+        {farms?.map((farm) => {
           return (
             <Polygon positions={farm.local} key={farm.id} color="#46903A">
               <Popup closeButton={false} minWidth={250} className="mapPopup">
@@ -36,7 +52,7 @@ export default function Map() {
                       navigation={true}
                       modules={[Pagination, Navigation]}
                     >
-                      {farmsData.map((farm) => {
+                      {farms.map((farm) => {
                         return (
                           <SwiperSlide key={farm.id}>
                             <img
