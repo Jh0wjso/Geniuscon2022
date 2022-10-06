@@ -8,11 +8,18 @@ export default function LocacaoMaquinario() {
   }
 
   return (
-    <div className="grid items-center justify-center bg-white">
-      <input type="text" className="w-72" placeholder="Nome Maquinário" />
+    <div className="container grid items-center justify-center bg-white">
+      <div className="flex flex-col justify-center items-center bg-gray-150 mt-20">
+        <h1 className="text-center">Nome do Maquinário</h1>
+        <input
+          type="text"
+          placeholder="Informações adicionais aqui"
+          className="w-[60%] text-center"
+        />
+      </div>
       <div className="w-full p-1 bg-gray-150">
         <div className="ml-2 flex justify-center items-center flex-col">
-          <h1 className="">Selecione a Marca</h1>
+          <h1 className="text-center">Selecione a Marca</h1>
           <div className="flex flex-col items-start gap-2 m-4  ">
             <div className="flex items-center flex-col gap-2">
               <div className="flex items-center gap-2">
@@ -278,9 +285,9 @@ export default function LocacaoMaquinario() {
           </label>
         </span>
       </span>
-      <div className="flex justify-end w-[100%]">
-        <button className="w-36 items-center flex justify-center">
-          <p>Enviar Formulário</p>
+      <div className="flex justify-end w-[100%] mb-20">
+        <button className="w-36 items-center flex justify-center h-12">
+          <p className="text-center">Enviar Formulário</p>
         </button>
       </div>
     </div>
