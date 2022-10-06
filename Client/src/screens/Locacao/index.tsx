@@ -51,6 +51,7 @@ export default function Locacao() {
                 categoria={item.categoria}
                 proprietario={item.fazenda}
                 marca={item.marca}
+                distancia="100"
               />
             )
           })}

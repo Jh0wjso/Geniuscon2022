@@ -9,6 +9,7 @@ interface CardProps {
   preco: number
   categoria: string
   marca: string
+  distancia: string
 }
 
 export default function Card({
@@ -19,6 +20,7 @@ export default function Card({
   title,
   proprietario,
   preco,
+  distancia,
 }: CardProps) {
   return (
     <div className="card">
@@ -33,6 +35,7 @@ export default function Card({
           <p>{marca}</p>
           <p>{proprietario}</p>
           <p>R$ {preco} /dia</p>
+          <p>Km {distancia}</p>
         </div>
         <div className="card-redirect">
           <Link to={''}>Saiba mais</Link>
