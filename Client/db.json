@@ -129,7 +129,7 @@
       {
         "id": "1",
         "nome": "Aurora",
-        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez. Lembrando que o calcário no solo precisa de umidade para reagir.",
+        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez.",
         "valor": 120.00,
         "local": "Bandeirantes - PR",
         "servico": "Aplicação de Calcário",
@@ -138,13 +138,13 @@
       },
       {
         "id": "2",
-        "nome": "Aurora",
-        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez. Lembrando que o calcário no solo precisa de umidade para reagir.",
-        "valor": 120.00,
-        "local": "Bandeirantes - PR",
-        "servico": "Aplicação de Calcário",
-        "horario": "08:00 - 12:00",
-        "imagem": "https://www.aurora.ind.br/view/images/logo-aurora.png"
+        "nome": "SolVerde",
+        "descricao": "Assistência técnica e consultoria em agricultura de precisão, com o objetivo de aumentar a produtividade e a rentabilidade do produtor rural.",
+        "valor": 200.00,
+        "local": "Virgínia - MG",
+        "servico": "Assistência técnica",
+        "horario": "08:00 - 18:00",
+        "imagem": "https://solverdeagro.com.br/wp-content/uploads/2019/08/LOGOTIPO-SOLVERDE_branca300.png"
       },
       {
         "id": "3",

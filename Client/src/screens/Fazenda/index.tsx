@@ -31,15 +31,16 @@ export default function Fazenda() {
   return (
     <>
       <div className="p-8">
-        <div className="flex mb-12 p-8 items-end bg-slate-300 rounded-sm">
+        <div className="flex mb-12 p-8 items-end bg-white rounded-sm">
           <img
             className="max-w-xs mr-5 rounded-b-none rounded-lg h-52"
-            src="https://cdn.discordapp.com/avatars/1027377903018725467/1628fc11e7961d85181295493426b775.png?size=1024"
+            src="https://avatars.githubusercontent.com/u/88116603?v=4"
             alt=""
           />
           <div className="w-full flex flex-row items-start">
             <div className="w-full">
               <h1 className="text-green-900">Lima Amaro</h1>
+              <h4 className="text-green-900">Fazenda Zoio Dagua</h4>
               <p className="text-sm text-gray-500">Descrição: </p>
               <p className="text-sm text-gray-500">
                 Só Amaro no lima amaro amaro lima
@@ -58,108 +59,118 @@ export default function Fazenda() {
         </div>
       </div>
 
-      <div className="p-8 pt-0">
-        <h1 className="text-green-900 mb-14">Fazenda Zoio dagua</h1>
-        <div>
-          <h2 className="text-green-900">Tratores</h2>
-          <Swiper
-            slidesPerView={2}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-            className="mySwiperGap"
-          >
-            <SwiperSlide className="ml-5">
-              <Card
-                title="Trator 1"
-                categoria="Trator"
-                marca="John Deere"
-                proprietario="Lima Amaro"
-                preco={120.0}
-                img={data.slide1.img}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card
-                title="Trator 1"
-                categoria="Trator"
-                marca="John Deere"
-                proprietario="Lima Amaro"
-                preco={120.0}
-                img={data.slide2.img}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card
-                title="Trator 1"
-                categoria="Trator"
-                marca="John Deere"
-                proprietario="Lima Amaro"
-                preco={120.0}
-                img={data.slide3.img}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card
-                title="Trator 1"
-                categoria="Trator"
-                marca="John Deere"
-                proprietario="Lima Amaro"
-                preco={120.0}
-                img={data.slide4.img}
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
+      <div className="p-8">
+        <div className="p-8 bg-white rounded">
+          <h1 className="text-green-900 mb-14">Fazenda Zoio dagua</h1>
+          <div>
+            <h2 className="text-green-900">Tratores</h2>
+            <Swiper
+              slidesPerView={2}
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="mySwiperGap"
+            >
+              <SwiperSlide className="ml-5">
+                <Card
+                  title="Trator 1"
+                  categoria="Trator"
+                  marca="John Deere"
+                  proprietario="Lima Amaro"
+                  preco={120.0}
+                  img={data.slide1.img}
+                  distancia="100"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Card
+                  title="Trator 1"
+                  categoria="Trator"
+                  marca="John Deere"
+                  proprietario="Lima Amaro"
+                  preco={120.0}
+                  img={data.slide2.img}
+                  distancia="100"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Card
+                  title="Trator 1"
+                  categoria="Trator"
+                  marca="John Deere"
+                  proprietario="Lima Amaro"
+                  preco={120.0}
+                  img={data.slide3.img}
+                  distancia="100"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Card
+                  title="Trator 1"
+                  categoria="Trator"
+                  marca="John Deere"
+                  proprietario="Lima Amaro"
+                  preco={120.0}
+                  img={data.slide4.img}
+                  distancia="100"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
 
-        <div className="mt-40">
-          <h2 className="text-green-900">Colheitadeiras</h2>
-          <Swiper
-            slidesPerView={2}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-            className="mySwiperGap"
-          >
-            <SwiperSlide className="ml-5">
-              <Card
-                title="Trator 1"
-                categoria="Trator"
-                marca="John Deere"
-                proprietario="Lima Amaro"
-                preco={120.0}
-                img={data.slide1.img}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card
-                title="Trator 1"
-                categoria="Trator"
-                marca="John Deere"
-                proprietario="Lima Amaro"
-                preco={120.0}
-                img={data.slide2.img}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card
-                title="Trator 1"
-                categoria="Trator"
-                marca="John Deere"
-                proprietario="Lima Amaro"
-                preco={120.0}
-                img={data.slide3.img}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card
-                title="Trator 1"
-                categoria="Trator"
-                marca="John Deere"
-                proprietario="Lima Amaro"
-                preco={120.0}
-                img={data.slide4.img}
-              />
-            </SwiperSlide>
-          </Swiper>
+          <div className="mt-40">
+            <h2 className="text-green-900">Colheitadeiras</h2>
+            <Swiper
+              slidesPerView={2}
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="mySwiperGap"
+            >
+              <SwiperSlide className="ml-5">
+                <Card
+                  title="Trator 1"
+                  categoria="Trator"
+                  marca="John Deere"
+                  proprietario="Lima Amaro"
+                  preco={120.0}
+                  img={data.slide1.img}
+                  distancia="100"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Card
+                  title="Trator 1"
+                  categoria="Trator"
+                  marca="John Deere"
+                  proprietario="Lima Amaro"
+                  preco={120.0}
+                  img={data.slide2.img}
+                  distancia="100"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Card
+                  title="Trator 1"
+                  categoria="Trator"
+                  marca="John Deere"
+                  proprietario="Lima Amaro"
+                  preco={120.0}
+                  img={data.slide3.img}
+                  distancia="100"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Card
+                  title="Trator 1"
+                  categoria="Trator"
+                  marca="John Deere"
+                  proprietario="Lima Amaro"
+                  preco={120.0}
+                  img={data.slide4.img}
+                  distancia="100"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
       </div>
     </>

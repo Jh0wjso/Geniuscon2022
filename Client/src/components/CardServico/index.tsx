@@ -23,15 +23,15 @@ export default function CardServico({
   link,
 }: CardServicoProps) {
   return (
-    <div className="card-servico">
-      <img src={img} alt="Imagem do serviço" />
+    <div className="card-servico h-full">
+      <img src={img} alt="Imagem do serviço" className="h-24 bg-cover" />
       <div className="servico-titulo">
         <h3>{titulo}</h3>
       </div>
-      <div className="servico-desc">
+      <div className="servico-desc h-full">
         <p>{desc}</p>
       </div>
-      <div className="servico-info">
+      <div className="servico-info h-full">
         <p>Preço: {preco}</p>
         <p>Local: {local}</p>
         <p>Serviço: {servico}</p>
