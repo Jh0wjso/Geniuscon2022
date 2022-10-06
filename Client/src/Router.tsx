@@ -9,6 +9,7 @@ import Locacao from './screens/Locacao'
 import LocacaoDetail from './screens/LocacaoDetail'
 import Map from './screens/Map'
 import Servico from './screens/Servicos'
+import LocacaoMaquinario from './screens/LocacaoMaquinario'
 
 export function Router() {
   return (
@@ -18,6 +19,7 @@ export function Router() {
       <Route path="/locacao/detalhe" element={<LocacaoDetail />} />
       <Route path="/servicos" element={<Servico />} />
       <Route path="/compra" element={<CompraLocacao />} />
+      <Route path="/locacao/maquinario" element={<LocacaoMaquinario />} />
 
       {/* Dashboards */}
       <Route path="/login" element={<Login />} />
