@@ -43,7 +43,7 @@ export function Filter({ title, opcoes, className }: FilterProps) {
               </span>
             </div>
             <div>
-              <h5 className="filter-title">{title}</h5>
+              <h5 className="filter-title">Locação</h5>
               <ul>
                 {opcoes.map((opcao) => {
                   return (
@@ -58,27 +58,47 @@ export function Filter({ title, opcoes, className }: FilterProps) {
             <div>
               <h5 className="filter-title">{title}</h5>
               <ul>
-                {opcoes.map((opcao) => {
-                  return (
-                    <li key={opcao}>
-                      <input id={opcao} type="checkbox" />
-                      <label htmlFor={opcao}>{opcao}</label>
-                    </li>
-                  )
-                })}
+                <li>
+                  <input type="checkbox" />
+                  <label htmlFor="">Manutenção Especializada</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label htmlFor="">Correção de solo</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label htmlFor="">Transporte</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label htmlFor="">Manuseio de Maquinário</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label htmlFor="">Abastecimento</label>
+                </li>
               </ul>
             </div>
             <div>
-              <h5 className="filter-title">{title}</h5>
+              <h5 className="filter-title">Raio de busca</h5>
               <ul>
-                {opcoes.map((opcao) => {
-                  return (
-                    <li key={opcao}>
-                      <input id={opcao} type="checkbox" />
-                      <label htmlFor={opcao}>{opcao}</label>
-                    </li>
-                  )
-                })}
+                <li>
+                  <input type="checkbox" />
+                  <label htmlFor="">50Km</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>100Km</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>150Km</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>200Km</label>
+                </li>
               </ul>
             </div>
             <div>

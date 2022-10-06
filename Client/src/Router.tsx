@@ -4,6 +4,7 @@ import Cadastro from './screens/Dashboard/Cadastro'
 import Login from './screens/Dashboard/Login'
 import User from './screens/Dashboard/User'
 import Vendor from './screens/Dashboard/Vendor'
+import Fazenda from './screens/Fazenda'
 import Inicio from './screens/Inicio'
 import Locacao from './screens/Locacao'
 import LocacaoDetail from './screens/LocacaoDetail'
@@ -27,6 +28,7 @@ export function Router() {
       <Route path="/vendor" element={<Vendor />} />
       <Route path="/cliente" element={<User />} />
       <Route path="/map" element={<Map />} />
+      <Route path="/fazenda" element={<Fazenda />} />
     </Routes>
   )
 }

@@ -26,7 +26,7 @@ export default function Card({
     <div className="card">
       <div className="card-content">
         <div className="card-title">
-          <img src={img} alt="" />
+          <img src={img} alt="" className="max-h-48 mb-8 w-80 bg-cover" />
           <label>{title}</label>
         </div>
         {desc && <p>{desc}</p>}

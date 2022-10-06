@@ -1,0 +1,64 @@
+.info .container {
+  box-shadow: 0 2px 9px 0 rgb(158 184 209 / 41%);
+}
+
+.detail-container h2 {
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  @apply text-base m-0 text-gray-400
+}
+
+.detail-container .buy {
+  box-shadow: 0 2px 9px 0 rgb(158 184 209 / 41%);
+}
+
+.detail-container .buy form .grid div {
+  display: contents;
+  @apply my-5
+}
+
+
+.detail-container .buy form input[type="checkbox"] {
+  appearance: none;
+  cursor: pointer;
+  border: 2px solid rgb(223, 224, 231);
+  width: 18px;
+  height: 18px;
+  padding: 0px;
+  margin-right: 7px;
+  border-radius: 4px;
+}
+
+.detail-container .buy form input[type="checkbox"]:checked {
+  border: 0px;
+  background-color: theme(colors.green.brasao2) !important;
+  background-image: url(/src/assets/img/icon/check-white.svg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.detail-container .buy strong {
+  @apply text-3xl
+}
+
+.detail-container .buy .termos a {
+  color: theme('colors.blue.600');
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mySwiper img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.swiper-wrapper {
+  gap: 2rem;
+}
