@@ -1,4 +1,4 @@
-export const offersData = [
+export const farmsData = [
   {
     id: '01',
     nome: 'Fazenda São Luiz',

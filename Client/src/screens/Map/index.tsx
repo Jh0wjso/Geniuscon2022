@@ -1,5 +1,5 @@
 import { BiSearchAlt2 } from 'react-icons/bi'
-import { offersData } from './OffersData'
+import { farmsData } from './FarmsData'
 import { MapContainer, Polygon, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import { Link } from 'react-router-dom'
@@ -22,9 +22,9 @@ export default function Map() {
             import.meta.env.VITE_MAPBOX_TOKEN
           }`}
         />
-        {offersData?.map((offer) => {
+        {farmsData?.map((farm) => {
           return (
-            <Polygon positions={offer.local} key={offer.id} color="#46903A">
+            <Polygon positions={farm.local} key={farm.id} color="#46903A">
               <Popup
                 closeButton={false}
                 minWidth={250}
@@ -32,10 +32,10 @@ export default function Map() {
                 className="mapPopup"
               >
                 <div className="grid grid-cols-1 content-center w-full">
-                  <span>{offer.nome}</span>
+                  <span>{farm.nome}</span>
                   <div className="flex w-full">
                     <Link
-                      to={`/hotel/detalhe/${offer.id}`}
+                      to={`/hotel/detalhe/${farm.id}`}
                       className="flex text-sm items-center justify-center w-11/12 h-10 bg-green-500 rounded-md text-white"
                     >
                       <BiSearchAlt2 /> Ver mais
