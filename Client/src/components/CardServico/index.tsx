@@ -10,6 +10,7 @@ interface CardServicoProps {
   local: string
   horario: string
   valor: number
+  link?: string
 }
 
 export default function CardServico({
@@ -20,6 +21,7 @@ export default function CardServico({
   local,
   horario,
   valor,
+  link,
 }: CardServicoProps) {
   return (
     <div className="card-servico h-full">
@@ -36,7 +38,7 @@ export default function CardServico({
         </p>
         <p className="font-bold">Local: {local}</p>
         <p>Horário: {horario}</p>
-        <Link to="/" className="mt-4">
+        <Link to={`${link}`} className="mt-4">
           Ver mais
         </Link>
       </div>

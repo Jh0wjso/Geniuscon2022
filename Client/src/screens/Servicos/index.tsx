@@ -53,6 +53,7 @@ export default function Servico() {
                 valor={item.valor}
                 local={item.local}
                 horario={item.horario}
+                link="/fazenda"
               />
             )
           })}
