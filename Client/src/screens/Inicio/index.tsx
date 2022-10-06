@@ -37,16 +37,6 @@ export default function Inicio() {
             <div>
               <a href="#" className="flex items-center mt-1">
                 <img
-                  className="h-5 w-5 md:h-[50px] md:w-[50px]"
-                  src="https://www.deere.com.br/assets/images/common/home-page/qt-book-small-wt.png"
-                  alt=""
-                />
-                <span>Manual técnico</span>
-              </a>
-            </div>
-            <div>
-              <a href="#" className="flex items-center mt-1">
-                <img
                   className="md:h-[50px] md:w-[50px]"
                   src="https://www.deere.com.br/assets/images/common/home-page/qt-news-small-wt.png"
                   alt=""
@@ -63,49 +53,49 @@ export default function Inicio() {
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027029462820339792/harvester.png'
             titulo="Colheitadeiras"
-            descricao="Acesse sua conta"
+            descricao="Veja as colheitadeiras da Região"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027030578714906705/tractor.png'
             titulo="Tratores"
-            descricao="Acesse sua conta"
+            descricao="Veja os tratores da Região"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027024822892511262/ceifeira-debulhadora_1.png'
             titulo="Colhedor de Cana"
-            descricao="Acesse sua conta"
+            descricao="Veja os colhedores de cana da Região"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027036473972772884/pesticide_1.png'
             titulo="Pulverizadores"
-            descricao="Acesse sua conta"
+            descricao="Veja os pulverizadores"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027032731282051142/grader_1.png'
             titulo="Grades"
-            descricao="Acesse sua conta"
+            descricao="Veja as grades da região"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027033492166549574/hay-bale.png'
             titulo="Enfardadoras"
-            descricao="Acesse sua conta"
+            descricao="Veja pelas enfardadoras da região"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1027039724285726741/1027039757991157760/silagem.png'
             titulo="Forrageiras"
-            descricao="Acesse sua conta"
+            descricao="Veja as forrageiras da região"
           />
           <CardsAcesso
             link="#"
             img='https://static.thenounproject.com/png/4453885-200.png'
             titulo="Semeadoras"
-            descricao="Acesse sua conta"
+            descricao="Veja as semeadoras da região"
           />
         </div>
       </section>
@@ -116,25 +106,25 @@ export default function Inicio() {
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027029462820339792/harvester.png'
             titulo="Correção de Solo"
-            descricao="Acesse sua conta"
+            descricao="Os melhores serviços de correção de solo"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027030578714906705/tractor.png'
             titulo="Manutenção Especializada"
-            descricao="Acesse sua conta"
+            descricao="Os melhores serviços para manutenção especializada"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027024822892511262/ceifeira-debulhadora_1.png'
             titulo="Transporte"
-            descricao="Acesse sua conta"
+            descricao="Os melhores serviços para transporte de máquinas"
           />
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027036473972772884/pesticide_1.png'
             titulo="Manuseio de Maquinários"
-            descricao="Acesse sua conta"
+            descricao="Os melhores serviços para manuseio de maquinários"
           />
         </div>
     </section>
