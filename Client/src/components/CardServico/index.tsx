@@ -36,7 +36,9 @@ export default function CardServico({
         </p>
         <p className="font-bold">Local: {local}</p>
         <p>Horário: {horario}</p>
-        <Link to="/">Ver mais</Link>
+        <Link to="/" className="mt-4">
+          Ver mais
+        </Link>
       </div>
     </div>
   )

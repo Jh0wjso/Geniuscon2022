@@ -63,66 +63,39 @@
       },
       {
         "id": "2",
-        "nome": "A950",
-        "categoria": "Colheitadeira",
+        "nome": "5060EN",
+        "categoria": "Tratores",
         "marca": "John Deere",
-        "fazenda": "Fazenda São João",
+        "fazenda": "Fazenda Miguel arcanjo",
         "valor": 120.00,
-        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
+        "imagem": "https://www.deere.com.br/assets/images/region-3/products/tractors/5e-series/5060en/trator_5e_5060en_foto_estudio_1366x768_large_570965c05625f062138999b0b6b9cb55401185b6.jpg"
       },
       {
         "id": "3",
-        "nome": "A950",
+        "nome": "S440",
         "categoria": "Colheitadeira",
         "marca": "John Deere",
-        "fazenda": "Fazenda São João",
-        "valor": 120.00,
-        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
+        "fazenda": "Fazenda Lima",
+        "valor": 300.00,
+        "imagem": "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
       },
       {
         "id": "4",
-        "nome": "A950",
-        "categoria": "Colheitadeira",
+        "nome": "1113",
+        "categoria": "Plantadeira",
         "marca": "John Deere",
-        "fazenda": "Fazenda São João",
-        "valor": 120.00,
-        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
+        "fazenda": "Fazenda Malutta",
+        "valor": 600.00,
+        "imagem": "https://www.deere.com.br/assets/images/region-3/products/planting-equipment/1113/2022/1113acq_r3g003466_large_257062adfe7478f81740b1e8c1c749fe2827ae50.jpg"
       },
       {
-        "id": "4",
-        "nome": "A950",
+        "id": "5",
+        "nome": "S550",
         "categoria": "Colheitadeira",
         "marca": "John Deere",
-        "fazenda": "Fazenda São João",
-        "valor": 120.00,
-        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
-      },
-      {
-        "id": "4",
-        "nome": "A950",
-        "categoria": "Colheitadeira",
-        "marca": "John Deere",
-        "fazenda": "Fazenda São João",
-        "valor": 120.00,
-        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
-      },
-      {
-        "id": "4",
-        "nome": "A950",
-        "categoria": "Colheitadeira",
-        "marca": "John Deere",
-        "fazenda": "Fazenda São João",
-        "valor": 120.00,
-        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
-      },
-      {
-        "id": "4",
-        "nome": "A950",
-        "categoria": "Colheitadeira",
-        "marca": "John Deere",
-        "fazenda": "Fazenda São João",
-        "valor": 120.00,
-        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
+        "fazenda": "Fazenda Ferreira",
+        "valor": 500.00,
+        "imagem": "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s550/colheitadeira_s550_campo_1_large_fd34c41768921eed844aae4271269e45f5e27835.jpg"
       }
     ],
     "servicos": [
