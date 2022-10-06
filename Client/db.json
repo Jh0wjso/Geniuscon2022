@@ -128,53 +128,48 @@
     "servicos": [
       {
         "id": "1",
-        "nome": "Aurora",
-        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez.",
+        "nome": "Fazenda Genius",
+        "titulo": "Borracheiro",
+        "descricao": "Troca de pneus, reparos, balanceamento e alinhamento de maquinários agrícolas.",
         "valor": 120.00,
         "local": "Bandeirantes - PR",
-        "servico": "Aplicação de Calcário",
-        "horario": "08:00 - 12:00",
-        "imagem": "https://www.aurora.ind.br/view/images/logo-aurora.png"
+        "horario": "08:00 - 12:00"
       },
       {
         "id": "2",
-        "nome": "SolVerde",
-        "descricao": "Assistência técnica e consultoria em agricultura de precisão, com o objetivo de aumentar a produtividade e a rentabilidade do produtor rural.",
+        "nome": "Fazenda São Lorenzo",
+        "titulo": "Assistência Técnica",
+        "descricao": "Assistência técnica de precisão, com o objetivo de aumentar a produtividade e a rentabilidade do produtor rural.",
         "valor": 200.00,
         "local": "Virgínia - MG",
-        "servico": "Assistência técnica",
-        "horario": "08:00 - 18:00",
-        "imagem": "https://solverdeagro.com.br/wp-content/uploads/2019/08/LOGOTIPO-SOLVERDE_branca300.png"
+        "horario": "08:00 - 18:00"
       },
       {
         "id": "3",
-        "nome": "Aurora",
-        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez. Lembrando que o calcário no solo precisa de umidade para reagir.",
-        "valor": 120.00,
-        "local": "Bandeirantes - PR",
-        "servico": "Aplicação de Calcário",
-        "horario": "08:00 - 12:00",
-        "imagem": "https://www.aurora.ind.br/view/images/logo-aurora.png"
+        "nome": "Fazenda São João",
+        "titulo": "Assistência Técnica",
+        "descricao": "Assistência técnica de precisão, com o objetivo de aumentar a produtividade e a rentabilidade do produtor rural.",
+        "valor": 300.00,
+        "local": "Botucatu - SP",
+        "horario": "08:00 - 18:00"
       },
       {
         "id": "4",
-        "nome": "Aurora",
-        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez. Lembrando que o calcário no solo precisa de umidade para reagir.",
-        "valor": 120.00,
-        "local": "Bandeirantes - PR",
-        "servico": "Aplicação de Calcário",
-        "horario": "08:00 - 12:00",
-        "imagem": "https://www.aurora.ind.br/view/images/logo-aurora.png"
+        "nome": "Fazenda Carlos Magna",
+        "titulo": "Transporte de Maquinários",
+        "descricao": "Transporte de maquinários agricolas pequenos e médios portes.",
+        "valor": 200.00,
+        "local": "Ouro Preto - RS",
+        "horario": "08:00 - 15:00"
       },
       {
         "id": "5",
-        "nome": "Aurora",
-        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez. Lembrando que o calcário no solo precisa de umidade para reagir.",
+        "nome": "Fazenda Miguel Arcanjo",
+        "titulo": "Transporte de Maquinários",
+        "descricao": "Transporte de maquinários agricolas pequenos e médios portes.",
         "valor": 120.00,
-        "local": "Bandeirantes - PR",
-        "servico": "Aplicação de Calcário",
-        "horario": "08:00 - 12:00",
-        "imagem": "https://www.aurora.ind.br/view/images/logo-aurora.png"
+        "local": "Maracaju - MS",
+        "horario": "08:00 - 18:00"
       }
     ]
 }
