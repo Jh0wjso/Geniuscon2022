@@ -50,5 +50,72 @@
               "https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797"
             ]
           }
+    ],
+    "locacao": [
+      {
+        "id": "1",
+        "nome": "A950",
+        "categoria": "Colheitadeira",
+        "marca": "John Deere",
+        "fazenda": "Fazenda São João",
+        "valor": 120.00,
+        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
+      },
+      {
+        "id": "2",
+        "nome": "A950",
+        "categoria": "Colheitadeira",
+        "marca": "John Deere",
+        "fazenda": "Fazenda São João",
+        "valor": 120.00,
+        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
+      },
+      {
+        "id": "3",
+        "nome": "A950",
+        "categoria": "Colheitadeira",
+        "marca": "John Deere",
+        "fazenda": "Fazenda São João",
+        "valor": 120.00,
+        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
+      },
+      {
+        "id": "4",
+        "nome": "A950",
+        "categoria": "Colheitadeira",
+        "marca": "John Deere",
+        "fazenda": "Fazenda São João",
+        "valor": 120.00,
+        "imagem": "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png"
+      }
+    ],
+    "servicos": [
+      {
+        "nome": "Aurora",
+        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez. Lembrando que o calcário no solo precisa de umidade para reagir.",
+        "valor": 120.00,
+        "local": "Bandeirantes - PR",
+        "servico": "Aplicação de Calcário",
+        "horario": "08:00 - 12:00",
+        "imagem": "https://www.aurora.ind.br/view/images/logo-aurora.png"
+      },
+      {
+        "nome": "Aurora",
+        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez. Lembrando que o calcário no solo precisa de umidade para reagir.",
+        "valor": 120.00,
+        "local": "Bandeirantes - PR",
+        "servico": "Aplicação de Calcário",
+        "horario": "08:00 - 12:00",
+        "imagem": "https://www.aurora.ind.br/view/images/logo-aurora.png"
+      },
+      {
+        "nome": "Aurora",
+        "descricao": "O calcário deve ser aplicado cerca de 3 meses antes do plantio da cultura. Assim, há tempo de reagir com o solo e reduzir a acidez. Lembrando que o calcário no solo precisa de umidade para reagir.",
+        "valor": 120.00,
+        "local": "Bandeirantes - PR",
+        "servico": "Aplicação de Calcário",
+        "horario": "08:00 - 12:00",
+        "imagem": "https://www.aurora.ind.br/view/images/logo-aurora.png"
+      }
     ]
 }
