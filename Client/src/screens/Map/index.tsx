@@ -1,4 +1,4 @@
-import { BiSearchAlt2, BiMoney, BiPhoneCall } from 'react-icons/bi'
+import { BiSearchAlt2 } from 'react-icons/bi'
 import { offersData } from './OffersData'
 import { MapContainer, Polygon, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -24,7 +24,7 @@ export default function Map() {
         />
         {offersData?.map((offer) => {
           return (
-            <Polygon positions={offer.local} key={offer.id}>
+            <Polygon positions={offer.local} key={offer.id} color="#46903A">
               <Popup
                 closeButton={false}
                 minWidth={250}
@@ -32,21 +32,11 @@ export default function Map() {
                 className="mapPopup"
               >
                 <div className="grid grid-cols-1 content-center w-full">
-                  <span>Oferta {offer.nome}</span>
-                  <div className="grid grid-cols-2 gap-4 my-2">
-                    <div className="flex items-center text-sm gap-1 justify-center">
-                      <BiPhoneCall size={20} />
-                      <span className="whitespace-nowrap">{offer.nome}</span>
-                    </div>
-                    <div className="flex items-center text-sm gap-1 justify-center">
-                      <BiMoney size={20} />
-                      <span className="whitespace-nowrap">{offer.nome}</span>
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-2">
+                  <span>{offer.nome}</span>
+                  <div className="flex w-full">
                     <Link
                       to={`/hotel/detalhe/${offer.id}`}
-                      className="flex text-sm items-center justify-center"
+                      className="flex text-sm items-center justify-center w-11/12 h-10 bg-green-500 rounded-md text-white"
                     >
                       <BiSearchAlt2 /> Ver mais
                     </Link>
