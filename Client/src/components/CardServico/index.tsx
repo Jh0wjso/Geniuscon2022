@@ -4,7 +4,7 @@ import './styles.css'
 interface CardServicoProps {
   desc: string
   img: string
-  preco: string
+  preco: number
   titulo: string
   local: string
   servico: string
