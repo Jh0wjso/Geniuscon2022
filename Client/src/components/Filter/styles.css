@@ -46,25 +46,6 @@
   cursor: pointer;
 }
 
-.filter .filter-body input[type="checkbox"] {
-  appearance: none;
-  cursor: pointer;
-  border: 2px solid rgb(223, 224, 231);
-  width: 18px;
-  height: 18px;
-  padding: 0px;
-  margin-right: 7px;
-  border-radius: 4px;
-}
-
-.filter .filter-body input[type="checkbox"]:checked {
-  border: 0px;
-  background-color: theme(colors.green.brasao2);
-  background-image: url(/src/assets/img/icon/check-white.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
 .filter .filter-body .filter-search input {
   border-radius: 8px;
   width: 100%;

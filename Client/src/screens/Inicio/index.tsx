@@ -121,7 +121,7 @@ export default function Inicio() {
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027030578714906705/tractor.png'
-            titulo="Manutenção Expecializada"
+            titulo="Manutenção Especializada"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
@@ -133,7 +133,7 @@ export default function Inicio() {
           <CardsAcesso
             link="#"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027036473972772884/pesticide_1.png'
-            titulo="Manuzeio de Maquinários"
+            titulo="Manuseio de Maquinários"
             descricao="Acesse sua conta"
           />
           <CardsAcesso
@@ -168,8 +168,9 @@ export default function Inicio() {
           </div>
         </div>
       </div>
+      <section>
       <h1 className='ml-12 mt-15 mb-15 text-center text-6xl mt-12 mb-8'>Novidades</h1>
-      <div className="grid grid-cols-2 m-12">
+      <div className="grid grid-cols-2 gap-3 mx-10 pb-16">
         <img className='flex w-full max-w-[900px] rounded-2xl justify-center' src="https://cdn.noticiasagricolas.com.br/dbimagens/a4839192428521ec0a1ce880223a39cc.jpg" alt="" />
         <div className='flex items-center'>
           <ul className='grid grid-cols-2 gap-8 justify-center max-h-full rounded-2xl w-1000px'>
@@ -188,6 +189,8 @@ export default function Inicio() {
           </ul>
         </div>
       </div>
+
+      </section>
     </>
   )
 }
