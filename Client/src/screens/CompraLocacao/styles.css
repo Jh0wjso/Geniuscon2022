@@ -1,0 +1,9 @@
+.input{
+    border: 1px solid #4d4c59 !important;
+}
+
+.termos a {
+  color: theme('colors.blue.600');
+  cursor: pointer;
+  text-decoration: underline;
+}

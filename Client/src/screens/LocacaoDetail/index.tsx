@@ -237,7 +237,9 @@ export default function LocacaoDetail() {
                         </span>
                       </span>
                     </div>
-                    <button className="mt-8">Efetuar compra</button>
+                    <button className="mt-8 font-bold bg-green-brasao hover:bg-green-brasao2">
+                      Efetuar compra
+                    </button>
                   </div>
                 </div>
               </form>
