@@ -8,6 +8,12 @@ export const farmsData = [
       [-23.108243463976237, -50.362851619720466],
       [-23.10859377781491, -50.36351144313812],
     ],
+    imagens: [
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+    ],
   },
   {
     id: '02',
@@ -20,6 +26,12 @@ export const farmsData = [
       [-23.108445757994584, -50.36270141601563],
       [-23.108317474018303, -50.36250829696656],
     ],
+    imagens: [
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+    ],
   },
   {
     id: '03',
@@ -29,6 +41,12 @@ export const farmsData = [
       [-23.107419482752665, -50.363388061523445],
       [-23.108243463976237, -50.362851619720466],
       [-23.10859377781491, -50.36351144313812],
+    ],
+    imagens: [
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
+      'https://img.freepik.com/fotos-gratis/agricultura-e-conceito-de-producao-de-alimentos-com-silos-de-maquina-de-trator-e-sistema-de-irrigacao_342744-565.jpg?w=1380&t=st=1664989714~exp=1664990314~hmac=cba6cd166a41a7148d860740f27d12ad33480caeb9615efa52ed2421aff5c797',
     ],
   },
 ]

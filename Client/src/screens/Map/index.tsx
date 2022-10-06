@@ -2,6 +2,8 @@ import { BiSearchAlt2 } from 'react-icons/bi'
 import { farmsData } from './FarmsData'
 import { MapContainer, Polygon, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from 'swiper'
 import { Link } from 'react-router-dom'
 
 import './styles.css'
@@ -25,14 +27,38 @@ export default function Map() {
         {farmsData?.map((farm) => {
           return (
             <Polygon positions={farm.local} key={farm.id} color="#46903A">
-              <Popup
-                closeButton={false}
-                minWidth={250}
-                maxHeight={240}
-                className="mapPopup"
-              >
+              <Popup closeButton={false} minWidth={250} className="mapPopup">
                 <div className="grid grid-cols-1 content-center w-full">
                   <span>{farm.nome}</span>
+                  <div className="w-full h-24 mt-2 mb-4">
+                    <Swiper
+                      slidesPerView={1}
+                      navigation={true}
+                      modules={[Pagination, Navigation]}
+                    >
+                      <SwiperSlide>
+                        <img
+                          className="w-36 h-full rounded-md"
+                          src={farm.imagens[0]}
+                          alt="Slide Image"
+                        />
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="w-36 h-full rounded-md"
+                          src={farm.imagens[1]}
+                          alt="Slide Image"
+                        />
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="w-36 h-full rounded-md"
+                          src={farm.imagens[2]}
+                          alt="Slide Image"
+                        />
+                      </SwiperSlide>
+                    </Swiper>
+                  </div>
                   <div className="flex w-full">
                     <Link
                       to={`/hotel/detalhe/${farm.id}`}
