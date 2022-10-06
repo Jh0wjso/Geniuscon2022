@@ -36,27 +36,17 @@ export default function Map() {
                       navigation={true}
                       modules={[Pagination, Navigation]}
                     >
-                      <SwiperSlide>
-                        <img
-                          className="w-36 h-full rounded-md"
-                          src={farm.imagens[0]}
-                          alt="Slide Image"
-                        />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img
-                          className="w-36 h-full rounded-md"
-                          src={farm.imagens[1]}
-                          alt="Slide Image"
-                        />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img
-                          className="w-36 h-full rounded-md"
-                          src={farm.imagens[2]}
-                          alt="Slide Image"
-                        />
-                      </SwiperSlide>
+                      {farmsData.map((farm) => {
+                        return (
+                          <SwiperSlide key={farm.id}>
+                            <img
+                              className="w-36 h-full rounded-md m-auto"
+                              src={farm.imagens[+farm.id]}
+                              alt="Slide Image"
+                            />
+                          </SwiperSlide>
+                        )
+                      })}
                     </Swiper>
                   </div>
                   <div className="flex w-full">

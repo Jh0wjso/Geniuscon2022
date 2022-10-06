@@ -1,6 +1,6 @@
 export const farmsData = [
   {
-    id: '01',
+    id: '1',
     nome: 'Fazenda São Luiz',
     local: [
       [-23.107799402867197, -50.36403715610504],
@@ -16,7 +16,7 @@ export const farmsData = [
     ],
   },
   {
-    id: '02',
+    id: '2',
     nome: 'Fazenda Menghel',
     local: [
       [-23.107162912716614, -50.36326467990876],
@@ -34,7 +34,7 @@ export const farmsData = [
     ],
   },
   {
-    id: '03',
+    id: '3',
     nome: 'Fazenda Malutta',
     local: [
       [-23.107799402867197, -50.36403715610504],

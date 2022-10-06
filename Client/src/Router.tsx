@@ -24,7 +24,7 @@ export function Router() {
       <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/vendor" element={<Vendor />} />
       <Route path="/cliente" element={<User />} />
-      <Route path="/mapa" element={<Map />} />
+      <Route path="/map" element={<Map />} />
     </Routes>
   )
 }

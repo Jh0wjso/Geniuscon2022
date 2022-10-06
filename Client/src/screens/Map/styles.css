@@ -33,3 +33,11 @@
     display: none;
     position: relative;
 }
+
+.swiper-button-next {
+    color: #458E42;
+}
+
+.swiper-button-prev {
+    color: #458E42;
+}
