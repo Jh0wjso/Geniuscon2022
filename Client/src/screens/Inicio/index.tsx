@@ -136,13 +136,6 @@ export default function Inicio() {
             titulo="Manuseio de Maquinários"
             descricao="Acesse sua conta"
           />
-          <CardsAcesso
-            link="#"
-            img='https://cdn.discordapp.com/attachments/1025171766101938206/1027036473972772884/pesticide_1.png'
-            titulo="Abastecimento"
-            descricao="Acesse sua conta"
-          />
-          
         </div>
     </section>
 
