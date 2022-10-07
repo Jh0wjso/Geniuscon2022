@@ -42,7 +42,7 @@ export default function CardFazenda({
           <p>Km {distancia}</p>
         </div>
         <div className="card-fazenda-redirect p-4">
-          <Link to={''}>Saiba mais</Link>
+          <Link to={'/locacao/detalhe'}>Saiba mais</Link>
         </div>
       </div>
     </div>
