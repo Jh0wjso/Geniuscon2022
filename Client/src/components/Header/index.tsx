@@ -16,7 +16,7 @@ export default function Header() {
     <nav id="navigation" className="navigation">
       <div className="grid grid-cols-2 border-b h-20 md:h-auto justify-between">
         <div className="flex justify-start">
-          <Link to="#">
+          <Link to="/">
             <img alt="logo" className="w-56 h-auto" src={logobanner} />
           </Link>
         </div>
@@ -47,7 +47,7 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center border-l mr-4">
-            <Link to={''} className="flex flex-row center">
+            <Link to="/login" className="flex flex-row center">
               <FaUserCircle className="mr-2 ml-2" size={26} color={'#8D8D99'} />
               <p className="m-0">Entrar</p>
             </Link>
