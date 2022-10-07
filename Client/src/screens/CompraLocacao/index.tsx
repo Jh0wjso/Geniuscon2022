@@ -1,6 +1,8 @@
 import './styles.css'
 import { AiOutlineFileSearch } from 'react-icons/ai'
 import imagem from '../../assets/img/trator.jpg'
+import seguro from '../../assets/contratos/modelo-de-contrato-de-seguro.pdf'
+import pdf from '../../assets/contratos/contrato-servicos.pdf'
 import {
   FaBarcode,
   FaMapMarkerAlt,
@@ -150,15 +152,19 @@ export default function CompraLocacao() {
           <span className="flex gap-1">
             <input id="termos-seguradora" type="checkbox" />
             <label htmlFor="termos-seguradora" className="select-none">
-              Concordar com os termos da{' '}
-              <Link to="termos-seguradora">seguradora</Link>*
+              Concordar com os termos da
+              <a className="m-1" href={seguro}>
+                Seguradora*
+              </a>
             </label>
           </span>
           <span className="flex gap-1">
             <input id="termos-contratual" type="checkbox" />
             <label htmlFor="termos-contratual" className="select-none">
-              Concordar com os termos{' '}
-              <Link to="termos-contrato">contratual</Link>*
+              Concordar com os termos
+              <a className="m-1" href={pdf}>
+                Serviços*
+              </a>
             </label>
           </span>
         </div>
