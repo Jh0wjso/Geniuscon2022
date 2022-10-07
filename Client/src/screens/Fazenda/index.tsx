@@ -41,7 +41,7 @@ export default function Fazenda() {
             <div className="w-full">
               <h1 className="text-green-900 m-0 mb-4">Lima Amaro</h1>
               <p className="text-sm text-gray-500">
-                Só Amaro no lima amaro amaro lima
+                Veja os maquinários disponíveis para locação
               </p>
             </div>
             <div className="w-1/3">
@@ -58,7 +58,7 @@ export default function Fazenda() {
 
       <div className="p-8 shadow-md">
         <div className="flex justify-center py-1 bg-green-900 w-4/12 rounded-t-md">
-          <h4 className="text-white m-0">Fazenda Zoio dagua</h4>
+          <h4 className="text-white m-0">Fazenda Malutta</h4>
         </div>
 
         <div className="p-8 bg-white rounded">
