@@ -18,7 +18,6 @@
 .mapPopup .leaflet-popup-content a {
     background: #458E42;
     margin: 0 10px;
-    border-radius: 50px;
     color: white;
     font-weight: normal;
     transition: .3s;
@@ -36,8 +35,10 @@
 
 .swiper-button-next {
     color: #458E42;
+    @apply select-none
 }
 
 .swiper-button-prev {
     color: #458E42;
+    @apply select-none
 }
