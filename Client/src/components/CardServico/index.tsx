@@ -29,7 +29,7 @@ export default function CardServico({
         <h3>{titulo}</h3>
       </div>
       <h4>{nome}</h4>
-      <div className="servico-desc mb-2">
+      <div className="servico-desc mb-2 h-20">
         <p>{limitDescription(descricao)}</p>
       </div>
       <div className="servico-info">
