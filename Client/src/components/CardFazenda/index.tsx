@@ -48,6 +48,9 @@ export default function CardFazenda({
             <span className="ml-2 text-green-600 font-bold">(14)</span>
           </div>
           <Link to={''}>Saiba mais</Link>
+          <div className="card-fazenda-redirect p-4">
+            <Link to={'/locacao/detalhe'}>Saiba mais</Link>
+          </div>
         </div>
       </div>
     </div>
