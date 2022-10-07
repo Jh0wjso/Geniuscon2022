@@ -9,8 +9,15 @@ import {
 } from 'react-icons/fa'
 import { RiShoppingBag3Fill } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 export default function CompraLocacao() {
+  const [active, setActive] = useState('')
+
+  function handleActive(button: string) {
+    return setActive(button)
+  }
+
   return (
     <section id="compraLocacao" className="grid grid-cols-4">
       <div className="col-span-3">
@@ -166,17 +173,38 @@ export default function CompraLocacao() {
         <div className="m-5 rounded-md font-bold h-24 flex items-center flex-col justify-center ">
           <div className="w-full flex items-center justify-center">
             <Link className="w-full px-1 py-1" to={'#'}>
-              <button className="flex items-center justify-center bg-white border-green-600 border-[1px]">
+              <button
+                className={`"flex items-center justify-center bg-white fill-green-400 border-green-600 border-[1px] ${
+                  active === 'code' ? 'bg-green-200' : ''
+                }`}
+                onClick={() => {
+                  handleActive('code')
+                }}
+              >
                 <FaBarcode color="#0f8239" className="h-12 w-12" />
               </button>
             </Link>
             <Link className="w-full px-2 py-1" to={'#'}>
-              <button className="flex items-center justify-center bg-white border-green-600 border-[1px]">
+              <button
+                className={`"flex items-center justify-center bg-white fill-green-400 border-green-600 border-[1px] ${
+                  active === 'credit' ? 'bg-green-200' : ''
+                }`}
+                onClick={() => {
+                  handleActive('credit')
+                }}
+              >
                 <FaRegCreditCard color="#0f8239" className="h-12 w-12" />
               </button>
             </Link>
             <Link className="w-full px-2 py-1" to={'#'}>
-              <button className="flex items-center justify-center bg-white fill-green-400 border-green-600 border-[1px]">
+              <button
+                className={`"flex items-center justify-center bg-white fill-green-400 border-green-600 border-[1px] ${
+                  active === 'pix' ? 'bg-green-200' : ''
+                }`}
+                onClick={() => {
+                  handleActive('pix')
+                }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-12 w-12"
