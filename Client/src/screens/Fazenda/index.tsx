@@ -47,9 +47,11 @@ export default function Fazenda() {
             </div>
             <div className="w-1/3">
               <div>
-                <p className="text-sm text-gray-500">Telefone: 9999-9999</p>
                 <p className="text-sm text-gray-500">
-                  E-mail: hackathon@mail.com
+                  <b>Telefone:</b> (14) 99739-1223
+                </p>
+                <p className="text-sm text-gray-500">
+                  <b>E-mail:</b> hackathon@gmail.com
                 </p>
               </div>
             </div>

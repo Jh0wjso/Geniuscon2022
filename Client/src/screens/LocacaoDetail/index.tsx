@@ -197,52 +197,6 @@ export default function LocacaoDetail() {
                         placeholder="Digite a quantidade..."
                       />
                     </div>
-                    <div className="grid grid-cols-2 termos">
-                      <span>
-                        <label className="flex gap-2">
-                          Operador{' '}
-                          <HiOutlineExclamationCircle
-                            className="text-blue-700"
-                            onClick={() => handleInfo('operador')}
-                            size={25}
-                          />
-                        </label>
-                        <span className="flex gap-1">
-                          <input id="sim" type="checkbox" disabled />
-                          <label htmlFor="sim">Sim</label>
-                        </span>
-                        <span className="flex gap-1">
-                          <input id="nao" type="checkbox" checked disabled />
-                          <label htmlFor="nao">Não</label>
-                        </span>
-                      </span>
-                      <span>
-                        <span className="flex gap-1">
-                          <input id="termos-seguradora" type="checkbox" />
-                          <label
-                            htmlFor="termos-seguradora"
-                            className="select-none"
-                          >
-                            Concordar com os termos da{' '}
-                            <a className="m-1" href={seguro}>
-                              Seguradora*
-                            </a>
-                          </label>
-                        </span>
-                        <span className="flex gap-1">
-                          <input id="termos-contratual" type="checkbox" />
-                          <label
-                            htmlFor="termos-contratual"
-                            className="select-none"
-                          >
-                            Concordar com os termos{' '}
-                            <a className="m-1" href={pdf}>
-                              Serviços*
-                            </a>
-                          </label>
-                        </span>
-                      </span>
-                    </div>
                     <Link to="/compra">
                       <button className="mt-8 font-bold bg-green-brasao hover:bg-green-900">
                         Efetuar compra

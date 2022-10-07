@@ -186,7 +186,7 @@ export default function CompraLocacao() {
               <button
                 className={`"flex items-center justify-center bg-white fill-green-400 border-green-600 border-[1px] hover:bg-gray-100 ${
                   active === 'code'
-                    ? 'bg-green-brasao fill-white flex items-center justify-center hover:bg-gray-100'
+                    ? 'bg-green-brasao fill-white flex items-center justify-center hover:bg-green-brasao'
                     : ''
                 }`}
                 onClick={() => {
@@ -203,7 +203,7 @@ export default function CompraLocacao() {
               <button
                 className={`"flex items-center justify-center bg-white fill-green-400 border-green-600 border-[1px] hover:bg-gray-100 ${
                   active === 'credit'
-                    ? 'bg-green-brasao  flex items-center justify-center hover:bg-gray-100'
+                    ? 'bg-green-brasao  flex items-center justify-center hover:bg-green-brasao'
                     : ''
                 }`}
                 onClick={() => {
@@ -220,7 +220,7 @@ export default function CompraLocacao() {
               <button
                 className={`"p-0 flex items-center justify-center bg-white fill-green-400 border-green-600 border-[1px] hover:bg-gray-100 ${
                   active === 'pix'
-                    ? 'bg-green-brasao fill-white flex items-center justify-center hover:bg-gray-100'
+                    ? 'bg-green-brasao fill-white flex items-center justify-center hover:bg-green-brasao'
                     : ''
                 }`}
                 onClick={() => {
@@ -237,7 +237,7 @@ export default function CompraLocacao() {
               </button>
             </Link>
           </div>
-          <button className="text-white bg-green-brasao text-center hover:bg-green-brasao2">
+          <button className="text-white bg-green-brasao text-center hover:bg-green-900 transition-all duration-300">
             Confirmar pagamento
           </button>
         </div>

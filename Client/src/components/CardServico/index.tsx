@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { limitDescription } from '../../utils/limitedDescription'
+import { StarRating } from '../StarRating'
 import './styles.css'
 
 interface CardServicoProps {
@@ -33,14 +34,25 @@ export default function CardServico({
         <p>{limitDescription(descricao)}</p>
       </div>
       <div className="servico-info">
-        <p className="flex font-bold">
-          Valor: <p className="text-lime-900">R$ {valor}</p>
+        <p>
+          <b>Valor:</b> R${valor}
         </p>
-        <p className="font-bold">Local: {local}</p>
-        <p>Horário: {horario}</p>
-        <Link to={`${link}`} className="mt-4">
-          Ver mais
-        </Link>
+        <p>
+          <b>Local:</b> {local}
+        </p>
+        <p>
+          <b>Horário:</b> {horario}
+        </p>
+        <div className="flex items-center justify-center">
+          <div className="flex items-center">
+            <StarRating />
+            <span className="ml-2 text-green-600 font-bold">
+              ({Math.floor(Math.random() * 25) + 5})
+            </span>
+          </div>
+        </div>
+
+        <Link to={`${link}`}>Saiba mais</Link>
       </div>
     </div>
   )

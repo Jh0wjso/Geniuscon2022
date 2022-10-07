@@ -62,5 +62,5 @@
   border-radius: 3px;
   transition: 0.3s ease;
   width: 100%;
-  @apply py-3 bg-green-900 hover:bg-green-800;
+  @apply py-3 bg-green-brasao hover:bg-green-900;
 }

@@ -3,7 +3,7 @@ import './styles.css'
 
 export function StarRating() {
   const [rating, setRating] = useState(0)
-  const [hover, setHover] = useState(0)
+  const [hover, setHover] = useState(Math.floor(Math.random() * 5) + 2)
 
   return (
     <div className="star-rating ml-auto">
@@ -20,8 +20,6 @@ export function StarRating() {
                   key={index}
                   className={index <= (hover || rating) ? 'on' : 'off'}
                   onClick={() => setRating(index)}
-                  onMouseEnter={() => setHover(index)}
-                  onMouseLeave={() => setHover(rating)}
                   id="botaoTest"
                 >
                   <span className="star">&#9733;</span>

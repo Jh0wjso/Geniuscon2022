@@ -1,5 +1,6 @@
 import './styles.css'
 import { Link } from 'react-router-dom'
+import { StarRating } from '../StarRating'
 
 interface CardProps {
   desc?: string
@@ -39,8 +40,14 @@ export default function Card({
           <p>R$ {preco} /dia</p>
           <p>Km {distancia}</p>
         </div>
-        <div className="card-redirect">
-          <Link to={`${link}`}>Saiba mais</Link>
+        <div className="card-fazenda-redirect card-redirect p-0 flex-col">
+          <div className="ml-10 flex flex-row justify-center items-center">
+            <StarRating />
+            <span className="ml-2 text-green-600 font-bold">
+              ({Math.floor(Math.random() * 25) + 5})
+            </span>
+          </div>
+          <Link to={'/locacao/detalhe'}>Saiba mais</Link>
         </div>
       </div>
     </div>

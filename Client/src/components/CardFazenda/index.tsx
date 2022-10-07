@@ -45,12 +45,11 @@ export default function CardFazenda({
         <div className="card-fazenda-redirect p-2 flex-col">
           <div className="ml-10 flex flex-row justify-center items-center">
             <StarRating />
-            <span className="ml-2 text-green-600 font-bold">(14)</span>
+            <span className="ml-2 text-green-600 font-bold">
+              ({Math.floor(Math.random() * 25) + 5})
+            </span>
           </div>
-          <Link to={''}>Saiba mais</Link>
-          <div className="card-fazenda-redirect p-4">
-            <Link to={'/locacao/detalhe'}>Saiba mais</Link>
-          </div>
+          <Link to={'/locacao/detalhe'}>Saiba mais</Link>
         </div>
       </div>
     </div>
