@@ -3,11 +3,16 @@
         {
             "id": "1",
             "nome": "Fazenda São Luiz",
+            "cor": "#FF4500",
             "local": [
-              [-23.107799402867197, -50.36403715610504],
-              [-23.107419482752665, -50.363388061523445],
-              [-23.108243463976237, -50.362851619720466],
-              [-23.10859377781491, -50.36351144313812]
+              [-23.104996849988808, -50.35965442657471],
+              [-23.103965614227413, -50.35795390605927],
+              [-23.103763313459993, -50.35658597946168],
+              [-23.104271531882244, -50.35143077373505],
+              [-23.104676131581257, -50.35083532333375],
+              [-23.10692607840207, -50.350674390792854],
+              [-23.106348793010383, -50.3578144311905],
+              [-23.10669417773098, -50.358463525772095]
             ],
             "imagens": [
               "https://cdn.discordapp.com/attachments/1026681318618181684/1026871307477975113/unknown.png",
@@ -19,6 +24,7 @@
           {
             "id": "2",
             "nome": "Fazenda Menghel",
+            "cor": "#9966CC",
             "local": [
               [-23.107162912716614, -50.36326467990876],
               [-23.106403067811016, -50.361955761909485],
@@ -37,11 +43,396 @@
           {
             "id": "3",
             "nome": "Fazenda Malutta",
+            "cor": "#ECDB00",
             "local": [
               [-23.107799402867197, -50.36403715610504],
               [-23.107419482752665, -50.363388061523445],
               [-23.108243463976237, -50.362851619720466],
               [-23.10859377781491, -50.36351144313812]
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          }
+          ,
+          {
+            "id": "4",
+            "nome": "Fazenda São João",
+            "cor": "#00A4CD",
+            "local": [
+              [-23.10014158474934, -50.35480499267579],
+              [-23.099470518025115, -50.34976243972779],
+              [-23.102292923116156, -50.34995555877686], 
+              [-23.102056080213234, -50.35383939743043]
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          }
+          ,
+          {
+            "id": "5",
+            "nome": "Fazenda Lima",
+            "cor": "#DCDCDC",
+            "local": [
+              [-23.1150621, -50.3592467],
+              [-23.1139273, -50.3589141],
+              [-23.1126544, -50.3588820],
+              [-23.1122696, -50.3591287],
+              [-23.1120327, -50.3597403],
+              [-23.1116183, -50.3598261],
+              [-23.1113321, -50.3585279],
+              [-23.1093487, -50.3588820],
+              [-23.1092500, -50.3584635],
+              [-23.1089046, -50.3583884],
+              [-23.1077994, -50.3566825],
+              [-23.1074343, -50.3565645],
+              [-23.1065856, -50.3558350],
+              [-23.1069507, -50.3516078],
+              [-23.1071284, -50.3507817],
+              [-23.1079869, -50.3506422],
+              [-23.1128320, -50.3516614],
+              [-23.1137102, -50.3528309],
+              [-23.1165817, -50.3579700],
+              [-23.1150621, -50.3592038]
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "6",
+            "nome": "Fazenda Lima",
+            "cor": "#111111",
+            "local": [
+              [-23.1138878, -50.3880966],
+              [-23.1177658, -50.3917122],
+              [-23.1166705, -50.3929889],
+              [-23.1138977, -50.3903389]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "7",
+            "nome": "Fazenda Lima",
+            "cor": "#ECDB00",
+            "local": [
+              [-23.1498307, -50.3516507],
+              [-23.1505804, -50.3508139],
+              [-23.1505804, -50.3499126],
+              [-23.1511328, -50.3490329],
+              [-23.1509257, -50.3463399],
+              [-23.1438228, -50.3467047],
+              [-23.1430237, -50.3467476],
+              [-23.1412380, -50.3473485],
+              [-23.1427672, -50.3618753],
+              [-23.1446021, -50.3621650],
+              [-23.1469501, -50.3610063],
+              [-23.1469895, -50.3590536],
+              [-23.1473052, -50.3584743],
+              [-23.1475223, -50.3569722],
+              [-23.1476998, -50.3564572],
+              [-23.1478971, -50.3563499],
+              [-23.1483115, -50.3546119],
+              [-23.1486469, -50.3542900],
+              [-23.1490612, -50.3530455],
+              [-23.1490612, -50.3509855]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "8",
+            "nome": "Fazenda Lima",
+            "cor": "#9966CC",
+            "local": [
+              [-23.1291719, -50.3398490],
+              [-23.1288759, -50.3274250],
+              [-23.1252450, -50.3277683],
+              [-23.1257778, -50.3402996]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "9",
+            "nome": "Fazenda Lima",
+            "cor": "#00A4CD",
+            "local": [
+              [-23.1332171, -50.3394628],
+              [-23.1326843, -50.3272748],
+              [-23.1288759, -50.3274894],
+              [-23.1291719, -50.3399348]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "10",
+            "nome": "Fazenda Lima",
+            "cor": "#DCDCDC",
+            "local": [
+              [-23.0578776, -50.4012287],
+              [-23.0576999, -50.4006279],
+              [-23.0566535, -50.4005957],
+              [-23.0565548, -50.3999519],
+              [-23.0558835, -50.4000163],
+              [-23.0548371, -50.3959394],
+              [-23.0559723, -50.3948665],
+              [-23.0557650, -50.3941798],
+              [-23.0611747, -50.3934503],
+              [-23.0621223, -50.3928173],
+              [-23.0664854, -50.4002523]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "11",
+            "nome": "Fazenda Lima",
+            "cor": "#111111",
+            "local": [
+              [-23.0903121, -50.3736877],
+              [-23.0877559, -50.3781188],
+              [-23.0863150, -50.3770781],
+              [-23.0878744, -50.3760159],
+              [-23.0889600, -50.3740954]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "12",
+            "nome": "Fazenda Lima",
+            "cor": "#FF4500",
+            "local": [
+              [-23.1111249, -50.3804791],
+              [-23.1112137, -50.3813696],
+              [-23.1111940, -50.3823459],
+              [-23.1105131, -50.3833866],
+              [-23.1105328, -50.3815520],
+              [-23.1104144, -50.3807688]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "13",
+            "nome": "Fazenda Lima",
+            "cor": "#00A4CD",
+            "local": [
+              [-23.1260047, -50.3604376],
+              [-23.1237945, -50.3619397],
+              [-23.1231828, -50.3595150],
+              [-23.1246036, -50.3585279],
+              [-23.1249588, -50.3585708]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "14",
+            "nome": "Fazenda Lima",
+            "cor": "#111111",
+            "local": [
+              [-23.1378738, -50.3843737],
+              [-23.1369760, -50.3853822],
+              [-23.1368280, -50.3851461],
+              [-23.1369366, -50.3847706],
+              [-23.1364038, -50.3841054],
+              [-23.1371635, -50.3831184]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "15",
+            "nome": "Fazenda Lima",
+            "cor": "#ECDB00",
+            "local": [
+              [-23.1363841, -50.3844702],
+              [-23.1364334, -50.3851998],
+              [-23.1360684, -50.3852534],
+              [-23.1357822, -50.3850174],
+              [-23.1357428, -50.3847170],
+              [-23.1360289, -50.3843307]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "16",
+            "nome": "Fazenda Lima",
+            "cor": "#DCDCDC",
+            "local": [
+              [-23.1237156, -50.3619504],
+              [-23.1234887, -50.3634632],
+              [-23.1218508, -50.3641069],
+              [-23.1209825, -50.3644824],
+              [-23.1192162, -50.3617895],
+              [-23.1230545, -50.3595901]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "17",
+            "nome": "Fazenda Andrino",
+            "cor": "#9966CC",
+            "local": [
+              [-23.1318457, -50.3897274],
+              [-23.1328718, -50.3887725],
+              [-23.1327040, -50.3882897],
+              [-23.1327435, -50.3879035],
+              [-23.1326350, -50.3876674],
+              [-23.1327238, -50.3873456],
+              [-23.1330000, -50.3870022],
+              [-23.1346181, -50.3892553],
+              [-23.1356343, -50.3927100],
+              [-23.1360190, -50.3938258],
+              [-23.1368675, -50.3958213],
+              [-23.1365222, -50.3956497],
+              [-23.1362065, -50.3953707],
+              [-23.1360585, -50.3949952],
+              [-23.1361868, -50.3947592],
+              [-23.1360092, -50.3945982],
+              [-23.1356639, -50.3949416],
+              [-23.1355455, -50.3952956],
+              [-23.1357822, -50.3956926],
+              [-23.1356343, -50.3964758],
+              [-23.1351607, -50.3961968],
+              [-23.1349239, -50.3962505],
+              [-23.1348154, -50.3970659],
+              [-23.1343813, -50.3973341],
+              [-23.1340853, -50.3966582],
+              [-23.1335229, -50.3950489],
+              [-23.1333059, -50.3940082],
+              [-23.1331973, -50.3930211],
+              [-23.1329704, -50.3915083],
+              [-23.1321910, -50.3923666],
+              [-23.1317963, -50.3920984],
+              [-23.1313918, -50.3917551],
+              [-23.1310465, -50.3914547],
+              [-23.1306913, -50.3910685]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "18",
+            "nome": "Usiban",
+            "cor": "#ECDB00",
+            "local": [
+              [-23.1038521, -50.3503418],
+              [-23.1026482, -50.3497517],
+              [-23.1010002, -50.3496659],
+              [-23.0993817, -50.3494835],
+              [-23.0995495, -50.3487968],
+              [-23.0998653, -50.3482604],
+              [-23.0998949, -50.3478527],
+              [-23.1000626, -50.3473485],
+              [-23.1006350, -50.3465867],
+              [-23.1032896, -50.3471446],
+              [-23.1041383, -50.3482711],
+              [-23.1041284, -50.3486359],
+              [-23.1042666, -50.3489685],
+              [-23.1040791, -50.3501916]
+              
+            ],
+            "imagens": [
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
+              "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg"
+            ]
+          },
+          {
+            "id": "19",
+            "nome": "Rancho Batata",
+            "cor": "#FF4500",
+            "local": [
+              [-23.0935097, -50.3905320],
+              [-23.0957401, -50.3933644],
+              [-23.0951085, -50.3940296],
+              [-23.0970428, -50.3996086],
+              [-23.0998653, -50.4014325],
+              [-23.0951282, -50.4082561],
+              [-23.0866012, -50.3952098],
+              [-23.0868973, -50.3943944],
+              [-23.0873315, -50.3937721],
+              [-23.0882395, -50.3929567],
+              [-23.0892462, -50.3923130]
+              
             ],
             "imagens": [
               "https://www.deere.com.br/assets/images/region-3/products/harvesters/s-series/s440/colheitadeira_s440_estudio_new_large_eef889c212a13d398c36fe0c0bc91e648588cce4.jpg",
