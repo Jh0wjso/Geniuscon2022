@@ -72,7 +72,7 @@ p {
 input[type="checkbox"] {
   appearance: none;
   cursor: pointer;
-  border: 2px solid rgb(223, 224, 231);
+  border: 2px solid #ccc;
   width: 18px;
   height: 18px;
   padding: 0px;

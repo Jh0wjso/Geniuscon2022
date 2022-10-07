@@ -104,13 +104,17 @@ export default function CompraLocacao() {
                           className="w-[90%] p-2"
                           placeholder="Componente Extra"
                         >
-                          <option className="text-center" value="">
+                          <option value="" selected>
                             Nenhum
                           </option>
-                          <option className="text-center" value="">
-                            Grade
-                          </option>
-                          <option value=""></option>
+                          <option value="">Plantadeira</option>
+                          <option value="">Semeadora</option>
+                          <option value="">Pulverizador</option>
+                          <option value="">Grade</option>
+                          <option value="">Subsolador</option>
+                          <option value="">Guincho</option>
+                          <option value="">Concha traseira</option>
+                          <option value="">Plaina</option>
                         </select>
                       </div>
                       <span>R$ 100,00</span>

@@ -18,7 +18,7 @@ export function Filter({ title, opcoes, className }: FilterProps) {
                 <span className="absolute inset-y-0 left-0 flex items-center pl-2">
                   <button
                     type="submit"
-                    className="p-1 focus:outline-none focus:shadow-outline"
+                    className="p-1 focus:outline-none focus:shadow-outline hover:bg-transparent text-gray-500"
                   >
                     <svg
                       fill="none"
@@ -60,24 +60,26 @@ export function Filter({ title, opcoes, className }: FilterProps) {
               <h5 className="filter-title">{title}</h5>
               <ul>
                 <li>
-                  <input type="checkbox" />
-                  <label htmlFor="">Manutenção Especializada</label>
+                  <input id="especializada" type="checkbox" />
+                  <label htmlFor="especializada">
+                    Manutenção Especializada
+                  </label>
                 </li>
                 <li>
-                  <input type="checkbox" />
-                  <label htmlFor="">Correção de solo</label>
+                  <input id="correcao-solo" type="checkbox" />
+                  <label htmlFor="correcao-solo">Correção de solo</label>
                 </li>
                 <li>
-                  <input type="checkbox" />
-                  <label htmlFor="">Transporte</label>
+                  <input id="transporte" type="checkbox" />
+                  <label htmlFor="transporte">Transporte</label>
                 </li>
                 <li>
-                  <input type="checkbox" />
-                  <label htmlFor="">Manuseio de Maquinário</label>
+                  <input id="manuseio" type="checkbox" />
+                  <label htmlFor="manuseio">Manuseio de Maquinário</label>
                 </li>
                 <li>
-                  <input type="checkbox" />
-                  <label htmlFor="">Abastecimento</label>
+                  <input id="abastecimento" type="checkbox" />
+                  <label htmlFor="abastecimento">Abastecimento</label>
                 </li>
               </ul>
             </div>
@@ -85,20 +87,20 @@ export function Filter({ title, opcoes, className }: FilterProps) {
               <h5 className="filter-title">Raio de busca</h5>
               <ul>
                 <li>
-                  <input type="checkbox" />
-                  <label htmlFor="">50Km</label>
+                  <input id="50km" type="checkbox" />
+                  <label htmlFor="50km">50Km</label>
                 </li>
                 <li>
-                  <input type="checkbox" />
-                  <label>100Km</label>
+                  <input id="100km" type="checkbox" />
+                  <label htmlFor="100km">100Km</label>
                 </li>
                 <li>
-                  <input type="checkbox" />
-                  <label>150Km</label>
+                  <input id="150km" type="checkbox" />
+                  <label htmlFor="150km">150Km</label>
                 </li>
                 <li>
-                  <input type="checkbox" />
-                  <label>200Km</label>
+                  <input id="200km" type="checkbox" />
+                  <label htmlFor="200km">200Km</label>
                 </li>
               </ul>
             </div>
