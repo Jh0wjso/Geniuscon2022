@@ -57,7 +57,7 @@ export default function Map() {
                           <SwiperSlide key={farm.id}>
                             <img
                               className="w-36 h-full rounded-md m-auto"
-                              src={farm.imagens[+farm.id]}
+                              src={farm.imagens[farm.imagens.length - 1]}
                               alt="Slide Image"
                             />
                           </SwiperSlide>
@@ -67,7 +67,7 @@ export default function Map() {
                   </div>
                   <div className="flex w-full">
                     <Link
-                      to={`/hotel/detalhe/${farm.id}`}
+                      to={`/fazenda`}
                       className="flex text-sm items-center justify-center w-11/12 h-10 bg-green-500 rounded-md text-white"
                     >
                       <BiSearchAlt2 /> Ver mais

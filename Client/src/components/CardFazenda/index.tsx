@@ -10,10 +10,9 @@ interface CardProps {
   categoria: string
   marca: string
   distancia: string
-  link?: string
 }
 
-export default function Card({
+export default function CardFazenda({
   marca,
   categoria,
   desc,
@@ -22,25 +21,28 @@ export default function Card({
   proprietario,
   preco,
   distancia,
-  link,
 }: CardProps) {
   return (
-    <div className="card">
-      <div className="card-content">
-        <div className="card-title">
-          <img src={img} alt="" className="max-h-48 mb-8 w-80 object-cover" />
+    <div className="card-fazenda">
+      <div className="card-fazenda-content bg-gray-100">
+        <div className="card-fazenda-title">
+          <img
+            src={img}
+            alt=""
+            className="max-h-32 mb-8 w-80 object-cover rounded-t-lg"
+          />
           <label>{title}</label>
         </div>
         {desc && <p>{desc}</p>}
-        <div className="card-footer">
+        <div className="card-fazenda-footer">
           <p>{categoria}</p>
           <p>{marca}</p>
           <p>{proprietario}</p>
           <p>R$ {preco} /dia</p>
           <p>Km {distancia}</p>
         </div>
-        <div className="card-redirect">
-          <Link to={`${link}`}>Saiba mais</Link>
+        <div className="card-fazenda-redirect p-4">
+          <Link to={''}>Saiba mais</Link>
         </div>
       </div>
     </div>

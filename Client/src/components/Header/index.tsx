@@ -69,19 +69,13 @@ export default function Header() {
             <Link to="/">Início</Link>
           </li>
           <li>
+            <Link to="/locacao">Locação</Link>
+          </li>
+          <li>
             <Link to="/servicos">Serviços</Link>
           </li>
           <li>
             <Link to="/map">Mapa</Link>
-          </li>
-          <li>
-            <Link to="/locacao">Locação</Link>
-          </li>
-          <li>
-            <Link to="/">Clima</Link>
-          </li>
-          <li>
-            <Link to="/">Insumos</Link>
           </li>
         </ul>
       </div>

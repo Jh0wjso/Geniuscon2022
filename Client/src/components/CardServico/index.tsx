@@ -1,42 +1,46 @@
 import { Link } from 'react-router-dom'
+import { limitDescription } from '../../utils/limitedDescription'
 import './styles.css'
 
 interface CardServicoProps {
-  desc: string
-  img: string
-  preco: number
+  id: number
+  nome: string
   titulo: string
+  descricao: string
   local: string
-  servico: string
   horario: string
-  link: string
+  valor: number
+  link?: string
 }
 
 export default function CardServico({
-  desc,
-  img,
-  preco,
+  id,
+  nome,
   titulo,
+  descricao,
   local,
-  servico,
   horario,
+  valor,
   link,
 }: CardServicoProps) {
   return (
     <div className="card-servico h-full">
-      <img src={img} alt="Imagem do serviço" className="h-24 bg-cover" />
       <div className="servico-titulo">
         <h3>{titulo}</h3>
       </div>
-      <div className="servico-desc h-full">
-        <p>{desc}</p>
+      <h4>{nome}</h4>
+      <div className="servico-desc mb-2">
+        <p>{limitDescription(descricao)}</p>
       </div>
-      <div className="servico-info h-full">
-        <p>Preço: {preco}</p>
-        <p>Local: {local}</p>
-        <p>Serviço: {servico}</p>
+      <div className="servico-info">
+        <p className="flex font-bold">
+          Valor: <p className="text-lime-900">R$ {valor}</p>
+        </p>
+        <p className="font-bold">Local: {local}</p>
         <p>Horário: {horario}</p>
-        <Link to={link}>Ver mais</Link>
+        <Link to={`${link}`} className="mt-4">
+          Ver mais
+        </Link>
       </div>
     </div>
   )

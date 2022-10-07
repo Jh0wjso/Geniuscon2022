@@ -6,7 +6,7 @@ import banner1 from '../../assets/img/detail/trator.jpg'
 import banner2 from '../../assets/img/detail/trator2.jpg'
 import banner3 from '../../assets/img/detail/trator3.jpg'
 import banner4 from '../../assets/img/detail/trator4.jpg'
-import Card from '../../components/Card'
+import CardFazenda from '../../components/CardFazenda'
 
 export default function Fazenda() {
   const data = {
@@ -30,24 +30,21 @@ export default function Fazenda() {
 
   return (
     <>
-      <div className="p-8">
-        <div className="flex mb-12 p-8 items-end bg-white rounded-sm">
+      <div className="px-8 pt-5 fazenda-user">
+        <div className="banner flex p-8 pt-16 pb-0 items-end bg-white rounded-sm shadow-xl rounded-t-lg">
           <img
-            className="max-w-xs mr-5 rounded-b-none rounded-lg h-52"
+            className="max-w-xs mr-5 rounded-b-none rounded-lg h-40"
             src="https://avatars.githubusercontent.com/u/88116603?v=4"
             alt=""
           />
-          <div className="w-full flex flex-row items-start">
+          <div className="w-full flex flex-row items-center">
             <div className="w-full">
-              <h1 className="text-green-900">Lima Amaro</h1>
-              <h4 className="text-green-900">Fazenda Zoio Dagua</h4>
-              <p className="text-sm text-gray-500">Descrição: </p>
+              <h1 className="text-green-900 m-0 mb-4">Lima Amaro</h1>
               <p className="text-sm text-gray-500">
-                Só Amaro no lima amaro amaro lima
+                Veja os maquinários disponíveis para locação
               </p>
             </div>
             <div className="w-1/3">
-              <h2 className="text-green-900">Contatos:</h2>
               <div>
                 <p className="text-sm text-gray-500">Telefone: 9999-9999</p>
                 <p className="text-sm text-gray-500">
@@ -59,19 +56,22 @@ export default function Fazenda() {
         </div>
       </div>
 
-      <div className="p-8">
+      <div className="p-8 shadow-md">
+        <div className="flex justify-center py-1 bg-green-900 w-4/12 rounded-t-md">
+          <h4 className="text-white m-0">Fazenda Malutta</h4>
+        </div>
+
         <div className="p-8 bg-white rounded">
-          <h1 className="text-green-900 mb-14">Fazenda Zoio dagua</h1>
           <div>
-            <h2 className="text-green-900">Tratores</h2>
+            <h1 className="text-green-900 text-center">Tratores</h1>
             <Swiper
-              slidesPerView={2}
+              slidesPerView={3}
               navigation={true}
               modules={[Pagination, Navigation]}
               className="mySwiperGap"
             >
-              <SwiperSlide className="ml-5">
-                <Card
+              <SwiperSlide className="">
+                <CardFazenda
                   title="Trator 1"
                   categoria="Trator"
                   marca="John Deere"
@@ -82,7 +82,7 @@ export default function Fazenda() {
                 />
               </SwiperSlide>
               <SwiperSlide>
-                <Card
+                <CardFazenda
                   title="Trator 1"
                   categoria="Trator"
                   marca="John Deere"
@@ -93,7 +93,7 @@ export default function Fazenda() {
                 />
               </SwiperSlide>
               <SwiperSlide>
-                <Card
+                <CardFazenda
                   title="Trator 1"
                   categoria="Trator"
                   marca="John Deere"
@@ -104,7 +104,7 @@ export default function Fazenda() {
                 />
               </SwiperSlide>
               <SwiperSlide>
-                <Card
+                <CardFazenda
                   title="Trator 1"
                   categoria="Trator"
                   marca="John Deere"
@@ -118,15 +118,15 @@ export default function Fazenda() {
           </div>
 
           <div className="mt-40">
-            <h2 className="text-green-900">Colheitadeiras</h2>
+            <h1 className="text-green-900 text-center">Colheitadeira</h1>
             <Swiper
-              slidesPerView={2}
+              slidesPerView={3}
               navigation={true}
               modules={[Pagination, Navigation]}
               className="mySwiperGap"
             >
               <SwiperSlide className="ml-5">
-                <Card
+                <CardFazenda
                   title="Trator 1"
                   categoria="Trator"
                   marca="John Deere"
@@ -137,7 +137,7 @@ export default function Fazenda() {
                 />
               </SwiperSlide>
               <SwiperSlide>
-                <Card
+                <CardFazenda
                   title="Trator 1"
                   categoria="Trator"
                   marca="John Deere"
@@ -148,7 +148,7 @@ export default function Fazenda() {
                 />
               </SwiperSlide>
               <SwiperSlide>
-                <Card
+                <CardFazenda
                   title="Trator 1"
                   categoria="Trator"
                   marca="John Deere"
@@ -159,7 +159,7 @@ export default function Fazenda() {
                 />
               </SwiperSlide>
               <SwiperSlide>
-                <Card
+                <CardFazenda
                   title="Trator 1"
                   categoria="Trator"
                   marca="John Deere"

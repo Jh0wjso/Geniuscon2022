@@ -7,12 +7,11 @@ import './styles.css'
 interface servicoProps {
   id: number
   nome: string
+  titulo: string
   descricao: string
   local: string
-  servico: string
   horario: string
   valor: number
-  imagem: string
 }
 
 export default function Servico() {
@@ -25,7 +24,7 @@ export default function Servico() {
   }, [])
 
   return (
-    <section id="locacao" className="p-0">
+    <section id="locacao" className="p-0 h-full">
       <div className="grid grid-cols-5 gap-5" style={{ height: '90vh' }}>
         <Filter
           className="hidden lg:col-span-1 lg:block"
@@ -42,19 +41,19 @@ export default function Servico() {
           ]}
         />
 
-        <div className="grid scroll-syles col-span-5 lg:col-span-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-1 justify-center gap-5 p-5 overflow-y-auto">
+        <div className="grid scroll-syles col-span-5 lg:col-span-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 my-1 justify-center gap-5 p-5 overflow-y-auto">
           {servicos.map((item) => {
             return (
               <CardServico
                 key={item.id}
-                img={item.imagem}
-                titulo={item.nome}
-                desc={item.descricao}
-                preco={item.valor}
+                nome={item.nome}
+                id={item.id}
+                titulo={item.titulo}
+                descricao={item.descricao}
+                valor={item.valor}
                 local={item.local}
-                servico={item.servico}
                 horario={item.horario}
-                link="#"
+                link="/fazenda"
               />
             )
           })}

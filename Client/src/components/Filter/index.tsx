@@ -101,32 +101,6 @@ export function Filter({ title, opcoes, className }: FilterProps) {
                 </li>
               </ul>
             </div>
-            <div>
-              <h5 className="filter-title">{title}</h5>
-              <ul>
-                {opcoes.map((opcao) => {
-                  return (
-                    <li key={opcao}>
-                      <input id={opcao} type="checkbox" />
-                      <label htmlFor={opcao}>{opcao}</label>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-            <div>
-              <h5 className="filter-title">{title}</h5>
-              <ul>
-                {opcoes.map((opcao) => {
-                  return (
-                    <li key={opcao}>
-                      <input id={opcao} type="checkbox" />
-                      <label htmlFor={opcao}>{opcao}</label>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
           </div>
         </form>
       </div>

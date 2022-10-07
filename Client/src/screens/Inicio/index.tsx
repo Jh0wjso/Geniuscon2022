@@ -15,17 +15,17 @@ export default function Inicio() {
       <div className=" w-full mt-4 h-14 md:w-3/4 m-auto bg-gray-500 text-white rounded">
             <div className='md:flex md:justify-around'>
             <div>
-              <a href="#" className="flex items-center mt-1">
+              <a href="/locacao" className="flex items-center mt-1">
                 <img
                   className="h-5 w-5 md:h-[50px] md:w-[50px]"
                   src="https://www.deere.com.br/assets/images/common/home-page/qt-tractor-white.png"
                   alt=""
                 />
-                <span>Ver equipamentos</span>
+                <span>Ver maquinários</span>
               </a>
             </div>
             <div>
-              <a href="#" className="flex items-center mt-1">
+              <a href="/map" className="flex items-center mt-1">
                 <img
                   className="h-5 w-5 md:h-[50px] md:w-[50px]"
                   src="https://www.deere.com.br/assets/images/common/home-page/qt-dealer-small-wt.png"
@@ -37,21 +37,11 @@ export default function Inicio() {
             <div>
               <a href="#" className="flex items-center mt-1">
                 <img
-                  className="h-5 w-5 md:h-[50px] md:w-[50px]"
-                  src="https://www.deere.com.br/assets/images/common/home-page/qt-book-small-wt.png"
-                  alt=""
-                />
-                <span>Manual técnico</span>
-              </a>
-            </div>
-            <div>
-              <a href="#" className="flex items-center mt-1">
-                <img
                   className="md:h-[50px] md:w-[50px]"
                   src="https://www.deere.com.br/assets/images/common/home-page/qt-news-small-wt.png"
                   alt=""
                 />
-                <span>Notícias</span>
+                <span>Novidades</span>
               </a>
             </div>
             </div>
@@ -60,52 +50,52 @@ export default function Inicio() {
         <h1 className="text-center text-6xl mt-12 mb-8">Locação</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-1 justify-center gap-5">
           <CardsAcesso
-            link="#"
+            link="/locacao"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027029462820339792/harvester.png'
             titulo="Colheitadeiras"
-            descricao="Acesse sua conta"
+            descricao="Veja as colheitadeiras da Região"
           />
           <CardsAcesso
-            link="#"
+            link="/locacao"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027030578714906705/tractor.png'
             titulo="Tratores"
-            descricao="Acesse sua conta"
+            descricao="Veja os tratores da Região"
           />
           <CardsAcesso
-            link="#"
+            link="/locacao"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027024822892511262/ceifeira-debulhadora_1.png'
             titulo="Colhedor de Cana"
-            descricao="Acesse sua conta"
+            descricao="Veja os colhedores de cana da Região"
           />
           <CardsAcesso
-            link="#"
+            link="/locacao"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027036473972772884/pesticide_1.png'
             titulo="Pulverizadores"
-            descricao="Acesse sua conta"
+            descricao="Veja os pulverizadores"
           />
           <CardsAcesso
-            link="#"
+            link="/locacao"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027032731282051142/grader_1.png'
             titulo="Grades"
-            descricao="Acesse sua conta"
+            descricao="Veja as grades da região"
           />
           <CardsAcesso
-            link="#"
+            link="/locacao"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027033492166549574/hay-bale.png'
             titulo="Enfardadoras"
-            descricao="Acesse sua conta"
+            descricao="Veja pelas enfardadoras da região"
           />
           <CardsAcesso
-            link="#"
+            link="/locacao"
             img='https://cdn.discordapp.com/attachments/1027039724285726741/1027039757991157760/silagem.png'
             titulo="Forrageiras"
-            descricao="Acesse sua conta"
+            descricao="Veja as forrageiras da região"
           />
           <CardsAcesso
-            link="#"
+            link="/locacao"
             img='https://static.thenounproject.com/png/4453885-200.png'
             titulo="Semeadoras"
-            descricao="Acesse sua conta"
+            descricao="Veja as semeadoras da região"
           />
         </div>
       </section>
@@ -113,36 +103,29 @@ export default function Inicio() {
     <h1 className="text-center text-6xl mt-12 mb-8">Serviços</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-1 justify-center gap-5">
           <CardsAcesso
-            link="#"
+            link="/servicos"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027029462820339792/harvester.png'
             titulo="Correção de Solo"
-            descricao="Acesse sua conta"
+            descricao="Os melhores serviços de correção de solo"
           />
           <CardsAcesso
-            link="#"
+            link="/servicos"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027030578714906705/tractor.png'
             titulo="Manutenção Especializada"
-            descricao="Acesse sua conta"
+            descricao="Os melhores serviços para manutenção especializada"
           />
           <CardsAcesso
-            link="#"
+            link="/servicos"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027024822892511262/ceifeira-debulhadora_1.png'
             titulo="Transporte"
-            descricao="Acesse sua conta"
+            descricao="Os melhores serviços para transporte de máquinas"
           />
           <CardsAcesso
-            link="#"
+            link="/servicos"
             img='https://cdn.discordapp.com/attachments/1025171766101938206/1027036473972772884/pesticide_1.png'
             titulo="Manuseio de Maquinários"
-            descricao="Acesse sua conta"
+            descricao="Os melhores serviços para manuseio de maquinários"
           />
-          <CardsAcesso
-            link="#"
-            img='https://cdn.discordapp.com/attachments/1025171766101938206/1027036473972772884/pesticide_1.png'
-            titulo="Abastecimento"
-            descricao="Acesse sua conta"
-          />
-          
         </div>
     </section>
 

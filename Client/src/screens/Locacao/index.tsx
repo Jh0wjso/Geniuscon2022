@@ -52,6 +52,7 @@ export default function Locacao() {
                 proprietario={item.fazenda}
                 marca={item.marca}
                 distancia="100"
+                link="/locacao/detalhe"
               />
             )
           })}
