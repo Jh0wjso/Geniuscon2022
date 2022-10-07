@@ -33,7 +33,8 @@
     align-self: flex-end;
     padding-top: 1rem;
     color: #fff;
-    @apply py-3 bg-green-900 hover:bg-green-800;
+    transition: .3s;
     border-radius: 5px;
     justify-content: center;
+    @apply py-3 bg-green-brasao hover:bg-green-900;
 }

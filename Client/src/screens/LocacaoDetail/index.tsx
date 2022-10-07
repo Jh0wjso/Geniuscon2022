@@ -244,7 +244,7 @@ export default function LocacaoDetail() {
                       </span>
                     </div>
                     <Link to="/compra">
-                      <button className="mt-8 font-bold bg-green-brasao hover:bg-green-brasao2">
+                      <button className="mt-8 font-bold bg-green-brasao hover:bg-green-900">
                         Efetuar compra
                       </button>
                     </Link>

@@ -39,7 +39,7 @@
 .filter .filter-body li label {
   font-family: Poppins, sans-serif;
   font-weight: 400;
-  @apply text-gray-400;
+  @apply text-gray-400 select-none;
 }
 
 .filter .filter-body li label:hover {
@@ -50,7 +50,6 @@
   border-radius: 8px;
   width: 100%;
   height: 40px;
-  border: 2px solid #ecedf2;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 14px;

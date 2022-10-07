@@ -25,7 +25,7 @@
 
 .mapPopup .leaflet-popup-content a:hover {
     cursor: pointer;
-    filter: brightness(.8);
+    @apply hover:bg-green-900
 }
 
 .mapPopup .leaflet-popup-tip-container {
