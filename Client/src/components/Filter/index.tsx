@@ -44,6 +44,7 @@ export function Filter({ title, opcoes, className }: FilterProps) {
             </div>
             <div>
               <h5 className="filter-title">Locação</h5>
+              <input type="range" />
               <ul>
                 {opcoes.map((opcao) => {
                   return (
