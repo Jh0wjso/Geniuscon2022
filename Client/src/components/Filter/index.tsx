@@ -43,8 +43,15 @@ export function Filter({ title, opcoes, className }: FilterProps) {
               </span>
             </div>
             <div>
-              <h5 className="filter-title">Locação</h5>
+              <h5 className="filter-title">Raio de pesquisa</h5>
               <input type="range" />
+              <div
+                className="w-full flex justify-end"
+                style={{ padding: 0, paddingBottom: 10, marginTop: -20 }}
+              >
+                <label className="ml-auto pr-5">5km</label>
+              </div>
+              <h5 className="filter-title pt-3">Categoria</h5>
               <ul>
                 {opcoes.map((opcao) => {
                   return (

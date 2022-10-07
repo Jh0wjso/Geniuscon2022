@@ -56,6 +56,36 @@ export default function Locacao() {
               />
             )
           })}
+          {locacao.map((item) => {
+            return (
+              <Card
+                key={item.id}
+                title={item.nome}
+                img={item.imagem}
+                preco={item.valor}
+                categoria={item.categoria}
+                proprietario={item.fazenda}
+                marca={item.marca}
+                distancia="100"
+                link="/locacao/detalhe"
+              />
+            )
+          })}
+          {locacao.map((item) => {
+            return (
+              <Card
+                key={item.id}
+                title={item.nome}
+                img={item.imagem}
+                preco={item.valor}
+                categoria={item.categoria}
+                proprietario={item.fazenda}
+                marca={item.marca}
+                distancia="100"
+                link="/locacao/detalhe"
+              />
+            )
+          })}
         </div>
       </div>
     </section>
