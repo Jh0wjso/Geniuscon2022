@@ -5,6 +5,8 @@ import banner1 from '../../assets/img/detail/trator.jpg'
 import banner2 from '../../assets/img/detail/trator2.jpg'
 import banner3 from '../../assets/img/detail/trator3.jpg'
 import banner4 from '../../assets/img/detail/trator4.jpg'
+import seguro from '../../assets/contratos/modelo-de-contrato-de-seguro.pdf'
+import pdf from '../../assets/contratos/contrato-servicos.pdf'
 
 import './styles.css'
 import { Link } from 'react-router-dom'
@@ -222,7 +224,9 @@ export default function LocacaoDetail() {
                             className="select-none"
                           >
                             Concordar com os termos da{' '}
-                            <Link to="termos-seguradora">seguradora</Link>*
+                            <a className="m-1" href={seguro}>
+                              Seguradora*
+                            </a>
                           </label>
                         </span>
                         <span className="flex gap-1">
@@ -232,7 +236,9 @@ export default function LocacaoDetail() {
                             className="select-none"
                           >
                             Concordar com os termos{' '}
-                            <Link to="termos-contrato">contratual</Link>*
+                            <a className="m-1" href={pdf}>
+                              Serviços*
+                            </a>
                           </label>
                         </span>
                       </span>
