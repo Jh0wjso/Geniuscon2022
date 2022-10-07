@@ -52,7 +52,7 @@
   border-color: rgb(196 196 204 / var(--tw-border-opacity));
   width: 100%;
   align-self: flex-end;
-  @apply pt-4
+  @apply pt-1
 }
 
 .card-fazenda .card-fazenda-content .card-fazenda-redirect a {

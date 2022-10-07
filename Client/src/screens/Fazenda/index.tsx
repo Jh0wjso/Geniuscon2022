@@ -7,6 +7,7 @@ import banner2 from '../../assets/img/detail/trator2.jpg'
 import banner3 from '../../assets/img/detail/trator3.jpg'
 import banner4 from '../../assets/img/detail/trator4.jpg'
 import CardFazenda from '../../components/CardFazenda'
+import { StarRating } from '../../components/StarRating'
 
 export default function Fazenda() {
   const data = {
@@ -39,7 +40,7 @@ export default function Fazenda() {
           />
           <div className="w-full flex flex-row items-center">
             <div className="w-full">
-              <h1 className="text-green-900 m-0 mb-4">Lima Amaro</h1>
+              <h1 className="text-green-900 m-0 mb-4">João Lorenzo</h1>
               <p className="text-sm text-gray-500">
                 Veja os maquinários disponíveis para locação
               </p>
@@ -57,8 +58,12 @@ export default function Fazenda() {
       </div>
 
       <div className="p-8 shadow-md">
-        <div className="flex justify-center py-1 bg-green-900 w-4/12 rounded-t-md">
+        <div className="flex items-center justify-center py-1 bg-green-900 w-4/12 rounded-t-md px-5">
           <h4 className="text-white m-0">Fazenda Malutta</h4>
+          <div className="ml-10 flex flex-row justify-center items-center">
+            <StarRating />
+            <span className="ml-2 text-white font-bold">(20)</span>
+          </div>
         </div>
 
         <div className="p-8 bg-white rounded">
